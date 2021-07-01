@@ -186,3 +186,956 @@ Parameter Group 0
 ==>>> CLEAN VALIDATE | epoch: 23, batch index: 20, val loss: 5.155213, val sim: 0.5324
 ==>>> TRAIN-PRUNE | train epoch: 24, loss: 5.615354, similarity: 0.7563
 ==>>> CLEAN VALIDATE | epoch: 24, batch index: 20, val loss: 5.172522, val sim: 0.5240
+==>>> TRAIN-PRUNE | train epoch: 25, loss: 5.613446, similarity: 0.7567
+==>>> CLEAN VALIDATE | epoch: 25, batch index: 20, val loss: 5.193923, val sim: 0.5203
+==>>> TRAIN-PRUNE | train epoch: 26, loss: 5.614376, similarity: 0.7560
+==>>> CLEAN VALIDATE | epoch: 26, batch index: 20, val loss: 5.175438, val sim: 0.5198
+==>>> TRAIN-PRUNE | train epoch: 27, loss: 5.608838, similarity: 0.7580
+==>>> CLEAN VALIDATE | epoch: 27, batch index: 20, val loss: 5.191658, val sim: 0.5219
+==>>> TRAIN-PRUNE | train epoch: 28, loss: 5.606591, similarity: 0.7585
+==>>> CLEAN VALIDATE | epoch: 28, batch index: 20, val loss: 5.187060, val sim: 0.5142
+==>>> TRAIN-PRUNE | train epoch: 29, loss: 5.603074, similarity: 0.7598
+==>>> CLEAN VALIDATE | epoch: 29, batch index: 20, val loss: 5.185949, val sim: 0.5157
+==>>> TRAIN-PRUNE | train epoch: 30, loss: 5.598907, similarity: 0.7614
+==>>> CLEAN VALIDATE | epoch: 30, batch index: 20, val loss: 5.170630, val sim: 0.5190
+==>>> TRAIN-PRUNE | train epoch: 31, loss: 5.597446, similarity: 0.7620
+==>>> CLEAN VALIDATE | epoch: 31, batch index: 20, val loss: 5.131013, val sim: 0.5313
+==>>> TRAIN-PRUNE | train epoch: 32, loss: 5.596924, similarity: 0.7619
+==>>> CLEAN VALIDATE | epoch: 32, batch index: 20, val loss: 5.147244, val sim: 0.5297
+==>>> TRAIN-PRUNE | train epoch: 33, loss: 5.595751, similarity: 0.7619
+==>>> CLEAN VALIDATE | epoch: 33, batch index: 20, val loss: 5.151442, val sim: 0.5239
+==>>> TRAIN-PRUNE | train epoch: 34, loss: 5.593026, similarity: 0.7628
+==>>> CLEAN VALIDATE | epoch: 34, batch index: 20, val loss: 5.167594, val sim: 0.5245
+==>>> TRAIN-PRUNE | train epoch: 35, loss: 5.597473, similarity: 0.7605
+==>>> CLEAN VALIDATE | epoch: 35, batch index: 20, val loss: 5.177127, val sim: 0.5231
+==>>> TRAIN-PRUNE | train epoch: 36, loss: 5.588455, similarity: 0.7646
+==>>> CLEAN VALIDATE | epoch: 36, batch index: 20, val loss: 5.187909, val sim: 0.5115
+==>>> TRAIN-PRUNE | train epoch: 37, loss: 5.586927, similarity: 0.7648
+==>>> CLEAN VALIDATE | epoch: 37, batch index: 20, val loss: 5.208190, val sim: 0.5089
+==>>> TRAIN-PRUNE | train epoch: 38, loss: 5.587008, similarity: 0.7648
+==>>> CLEAN VALIDATE | epoch: 38, batch index: 20, val loss: 5.147112, val sim: 0.5269
+==>>> TRAIN-PRUNE | train epoch: 39, loss: 5.580022, similarity: 0.7678
+==>>> CLEAN VALIDATE | epoch: 39, batch index: 20, val loss: 5.173061, val sim: 0.5164
+==>>> TRAIN-PRUNE | train epoch: 40, loss: 5.583707, similarity: 0.7661
+==>>> CLEAN VALIDATE | epoch: 40, batch index: 20, val loss: 5.149154, val sim: 0.5246
+==>>> TRAIN-PRUNE | train epoch: 41, loss: 5.580366, similarity: 0.7676
+==>>> CLEAN VALIDATE | epoch: 41, batch index: 20, val loss: 5.160101, val sim: 0.5231
+==>>> TRAIN-PRUNE | train epoch: 42, loss: 5.579666, similarity: 0.7673
+==>>> CLEAN VALIDATE | epoch: 42, batch index: 20, val loss: 5.193680, val sim: 0.5130
+==>>> TRAIN-PRUNE | train epoch: 43, loss: 5.578545, similarity: 0.7681
+==>>> CLEAN VALIDATE | epoch: 43, batch index: 20, val loss: 5.146203, val sim: 0.5270
+==>>> TRAIN-PRUNE | train epoch: 44, loss: 5.580395, similarity: 0.7671
+==>>> CLEAN VALIDATE | epoch: 44, batch index: 20, val loss: 5.184593, val sim: 0.5109
+==>>> TRAIN-PRUNE | train epoch: 45, loss: 5.576833, similarity: 0.7685
+==>>> CLEAN VALIDATE | epoch: 45, batch index: 20, val loss: 5.162853, val sim: 0.5216
+==>>> TRAIN-PRUNE | train epoch: 46, loss: 5.577362, similarity: 0.7686
+==>>> CLEAN VALIDATE | epoch: 46, batch index: 20, val loss: 5.133955, val sim: 0.5307
+==>>> TRAIN-PRUNE | train epoch: 47, loss: 5.573277, similarity: 0.7701
+==>>> CLEAN VALIDATE | epoch: 47, batch index: 20, val loss: 5.194832, val sim: 0.5079
+==>>> TRAIN-PRUNE | train epoch: 48, loss: 5.571216, similarity: 0.7711
+==>>> CLEAN VALIDATE | epoch: 48, batch index: 20, val loss: 5.154076, val sim: 0.5231
+==>>> TRAIN-PRUNE | train epoch: 49, loss: 5.571281, similarity: 0.7704
+==>>> CLEAN VALIDATE | epoch: 49, batch index: 20, val loss: 5.122671, val sim: 0.5328
+==>>> TRAIN-PRUNE | train epoch: 50, loss: 5.568289, similarity: 0.7723
+==>>> CLEAN VALIDATE | epoch: 50, batch index: 20, val loss: 5.164104, val sim: 0.5192
+==>>> TRAIN-PRUNE | train epoch: 51, loss: 5.567450, similarity: 0.7728
+==>>> CLEAN VALIDATE | epoch: 51, batch index: 20, val loss: 5.164936, val sim: 0.5203
+==>>> TRAIN-PRUNE | train epoch: 52, loss: 5.566177, similarity: 0.7733
+==>>> CLEAN VALIDATE | epoch: 52, batch index: 20, val loss: 5.134247, val sim: 0.5309
+==>>> TRAIN-PRUNE | train epoch: 53, loss: 5.564245, similarity: 0.7744
+==>>> CLEAN VALIDATE | epoch: 53, batch index: 20, val loss: 5.093834, val sim: 0.5404
+==>>> TRAIN-PRUNE | train epoch: 54, loss: 5.564768, similarity: 0.7738
+==>>> CLEAN VALIDATE | epoch: 54, batch index: 20, val loss: 5.109767, val sim: 0.5414
+==>>> TRAIN-PRUNE | train epoch: 55, loss: 5.566264, similarity: 0.7730
+==>>> CLEAN VALIDATE | epoch: 55, batch index: 20, val loss: 5.125898, val sim: 0.5345
+==>>> TRAIN-PRUNE | train epoch: 56, loss: 5.562550, similarity: 0.7748
+==>>> CLEAN VALIDATE | epoch: 56, batch index: 20, val loss: 5.131540, val sim: 0.5303
+==>>> TRAIN-PRUNE | train epoch: 57, loss: 5.560613, similarity: 0.7756
+==>>> CLEAN VALIDATE | epoch: 57, batch index: 20, val loss: 5.176352, val sim: 0.5192
+==>>> TRAIN-PRUNE | train epoch: 58, loss: 5.565481, similarity: 0.7736
+==>>> CLEAN VALIDATE | epoch: 58, batch index: 20, val loss: 5.109027, val sim: 0.5380
+==>>> TRAIN-PRUNE | train epoch: 59, loss: 5.561611, similarity: 0.7750
+==>>> CLEAN VALIDATE | epoch: 59, batch index: 20, val loss: 5.155270, val sim: 0.5234
+==>>> TRAIN-PRUNE | train epoch: 60, loss: 5.562020, similarity: 0.7754
+==>>> CLEAN VALIDATE | epoch: 60, batch index: 20, val loss: 5.181883, val sim: 0.5109
+==>>> TRAIN-PRUNE | train epoch: 61, loss: 5.558736, similarity: 0.7764
+==>>> CLEAN VALIDATE | epoch: 61, batch index: 20, val loss: 5.165709, val sim: 0.5228
+==>>> TRAIN-PRUNE | train epoch: 62, loss: 5.558037, similarity: 0.7766
+==>>> CLEAN VALIDATE | epoch: 62, batch index: 20, val loss: 5.132507, val sim: 0.5283
+==>>> TRAIN-PRUNE | train epoch: 63, loss: 5.554945, similarity: 0.7784
+==>>> CLEAN VALIDATE | epoch: 63, batch index: 20, val loss: 5.154401, val sim: 0.5287
+==>>> TRAIN-PRUNE | train epoch: 64, loss: 5.559219, similarity: 0.7760
+==>>> CLEAN VALIDATE | epoch: 64, batch index: 20, val loss: 5.158210, val sim: 0.5193
+==>>> TRAIN-PRUNE | train epoch: 65, loss: 5.556820, similarity: 0.7772
+==>>> CLEAN VALIDATE | epoch: 65, batch index: 20, val loss: 5.164947, val sim: 0.5200
+==>>> TRAIN-PRUNE | train epoch: 66, loss: 5.555327, similarity: 0.7777
+==>>> CLEAN VALIDATE | epoch: 66, batch index: 20, val loss: 5.116849, val sim: 0.5322
+==>>> TRAIN-PRUNE | train epoch: 67, loss: 5.553026, similarity: 0.7789
+==>>> CLEAN VALIDATE | epoch: 67, batch index: 20, val loss: 5.128372, val sim: 0.5305
+==>>> TRAIN-PRUNE | train epoch: 68, loss: 5.554554, similarity: 0.7781
+==>>> CLEAN VALIDATE | epoch: 68, batch index: 20, val loss: 5.147579, val sim: 0.5230
+==>>> TRAIN-PRUNE | train epoch: 69, loss: 5.548832, similarity: 0.7808
+==>>> CLEAN VALIDATE | epoch: 69, batch index: 20, val loss: 5.092762, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 70, loss: 5.551510, similarity: 0.7791
+==>>> CLEAN VALIDATE | epoch: 70, batch index: 20, val loss: 5.130864, val sim: 0.5256
+==>>> TRAIN-PRUNE | train epoch: 71, loss: 5.552965, similarity: 0.7789
+==>>> CLEAN VALIDATE | epoch: 71, batch index: 20, val loss: 5.147035, val sim: 0.5251
+==>>> TRAIN-PRUNE | train epoch: 72, loss: 5.551989, similarity: 0.7791
+==>>> CLEAN VALIDATE | epoch: 72, batch index: 20, val loss: 5.150770, val sim: 0.5218
+==>>> TRAIN-PRUNE | train epoch: 73, loss: 5.551824, similarity: 0.7792
+==>>> CLEAN VALIDATE | epoch: 73, batch index: 20, val loss: 5.166091, val sim: 0.5209
+==>>> TRAIN-PRUNE | train epoch: 74, loss: 5.550500, similarity: 0.7799
+==>>> CLEAN VALIDATE | epoch: 74, batch index: 20, val loss: 5.121068, val sim: 0.5303
+==>>> TRAIN-PRUNE | train epoch: 75, loss: 5.546313, similarity: 0.7817
+==>>> CLEAN VALIDATE | epoch: 75, batch index: 20, val loss: 5.121961, val sim: 0.5375
+==>>> TRAIN-PRUNE | train epoch: 76, loss: 5.549854, similarity: 0.7804
+==>>> CLEAN VALIDATE | epoch: 76, batch index: 20, val loss: 5.127113, val sim: 0.5338
+==>>> TRAIN-PRUNE | train epoch: 77, loss: 5.550968, similarity: 0.7794
+==>>> CLEAN VALIDATE | epoch: 77, batch index: 20, val loss: 5.096398, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 78, loss: 5.545680, similarity: 0.7820
+==>>> CLEAN VALIDATE | epoch: 78, batch index: 20, val loss: 5.135178, val sim: 0.5305
+==>>> TRAIN-PRUNE | train epoch: 79, loss: 5.545634, similarity: 0.7820
+==>>> CLEAN VALIDATE | epoch: 79, batch index: 20, val loss: 5.128673, val sim: 0.5358
+==>>> TRAIN-PRUNE | train epoch: 80, loss: 5.547082, similarity: 0.7812
+==>>> CLEAN VALIDATE | epoch: 80, batch index: 20, val loss: 5.148698, val sim: 0.5256
+==>>> TRAIN-PRUNE | train epoch: 81, loss: 5.544810, similarity: 0.7823
+==>>> CLEAN VALIDATE | epoch: 81, batch index: 20, val loss: 5.123497, val sim: 0.5340
+==>>> TRAIN-PRUNE | train epoch: 82, loss: 5.544743, similarity: 0.7822
+==>>> CLEAN VALIDATE | epoch: 82, batch index: 20, val loss: 5.097969, val sim: 0.5404
+==>>> TRAIN-PRUNE | train epoch: 83, loss: 5.546671, similarity: 0.7812
+==>>> CLEAN VALIDATE | epoch: 83, batch index: 20, val loss: 5.110573, val sim: 0.5337
+==>>> TRAIN-PRUNE | train epoch: 84, loss: 5.543865, similarity: 0.7826
+==>>> CLEAN VALIDATE | epoch: 84, batch index: 20, val loss: 5.120304, val sim: 0.5354
+==>>> TRAIN-PRUNE | train epoch: 85, loss: 5.539346, similarity: 0.7849
+==>>> CLEAN VALIDATE | epoch: 85, batch index: 20, val loss: 5.137355, val sim: 0.5278
+==>>> TRAIN-PRUNE | train epoch: 86, loss: 5.543475, similarity: 0.7826
+==>>> CLEAN VALIDATE | epoch: 86, batch index: 20, val loss: 5.132926, val sim: 0.5270
+==>>> TRAIN-PRUNE | train epoch: 87, loss: 5.544717, similarity: 0.7824
+==>>> CLEAN VALIDATE | epoch: 87, batch index: 20, val loss: 5.151953, val sim: 0.5246
+==>>> TRAIN-PRUNE | train epoch: 88, loss: 5.547264, similarity: 0.7811
+==>>> CLEAN VALIDATE | epoch: 88, batch index: 20, val loss: 5.099864, val sim: 0.5437
+==>>> TRAIN-PRUNE | train epoch: 89, loss: 5.543751, similarity: 0.7833
+==>>> CLEAN VALIDATE | epoch: 89, batch index: 20, val loss: 5.137691, val sim: 0.5249
+==>>> TRAIN-PRUNE | train epoch: 90, loss: 5.543048, similarity: 0.7832
+==>>> CLEAN VALIDATE | epoch: 90, batch index: 20, val loss: 5.156737, val sim: 0.5228
+==>>> TRAIN-PRUNE | train epoch: 91, loss: 5.538367, similarity: 0.7851
+==>>> CLEAN VALIDATE | epoch: 91, batch index: 20, val loss: 5.097126, val sim: 0.5416
+==>>> TRAIN-PRUNE | train epoch: 92, loss: 5.537897, similarity: 0.7854
+==>>> CLEAN VALIDATE | epoch: 92, batch index: 20, val loss: 5.130359, val sim: 0.5316
+==>>> TRAIN-PRUNE | train epoch: 93, loss: 5.540847, similarity: 0.7840
+==>>> CLEAN VALIDATE | epoch: 93, batch index: 20, val loss: 5.155534, val sim: 0.5206
+==>>> TRAIN-PRUNE | train epoch: 94, loss: 5.540546, similarity: 0.7844
+==>>> CLEAN VALIDATE | epoch: 94, batch index: 20, val loss: 5.114925, val sim: 0.5315
+==>>> TRAIN-PRUNE | train epoch: 95, loss: 5.539125, similarity: 0.7848
+==>>> CLEAN VALIDATE | epoch: 95, batch index: 20, val loss: 5.157835, val sim: 0.5176
+==>>> TRAIN-PRUNE | train epoch: 96, loss: 5.538349, similarity: 0.7852
+==>>> CLEAN VALIDATE | epoch: 96, batch index: 20, val loss: 5.134685, val sim: 0.5325
+==>>> TRAIN-PRUNE | train epoch: 97, loss: 5.542905, similarity: 0.7828
+==>>> CLEAN VALIDATE | epoch: 97, batch index: 20, val loss: 5.121470, val sim: 0.5336
+==>>> TRAIN-PRUNE | train epoch: 98, loss: 5.535583, similarity: 0.7861
+==>>> CLEAN VALIDATE | epoch: 98, batch index: 20, val loss: 5.092722, val sim: 0.5400
+==>>> TRAIN-PRUNE | train epoch: 99, loss: 5.536219, similarity: 0.7862
+==>>> CLEAN VALIDATE | epoch: 99, batch index: 20, val loss: 5.077104, val sim: 0.5475
+==>>> TRAIN-PRUNE | train epoch: 100, loss: 5.536538, similarity: 0.7859
+==>>> CLEAN VALIDATE | epoch: 100, batch index: 20, val loss: 5.098580, val sim: 0.5386
+==>>> TRAIN-PRUNE | train epoch: 101, loss: 5.532873, similarity: 0.7876
+==>>> CLEAN VALIDATE | epoch: 101, batch index: 20, val loss: 5.137821, val sim: 0.5269
+==>>> TRAIN-PRUNE | train epoch: 102, loss: 5.533241, similarity: 0.7874
+==>>> CLEAN VALIDATE | epoch: 102, batch index: 20, val loss: 5.101786, val sim: 0.5412
+==>>> TRAIN-PRUNE | train epoch: 103, loss: 5.537836, similarity: 0.7849
+==>>> CLEAN VALIDATE | epoch: 103, batch index: 20, val loss: 5.126535, val sim: 0.5301
+==>>> TRAIN-PRUNE | train epoch: 104, loss: 5.535761, similarity: 0.7860
+==>>> CLEAN VALIDATE | epoch: 104, batch index: 20, val loss: 5.103285, val sim: 0.5359
+==>>> TRAIN-PRUNE | train epoch: 105, loss: 5.531882, similarity: 0.7877
+==>>> CLEAN VALIDATE | epoch: 105, batch index: 20, val loss: 5.106432, val sim: 0.5407
+==>>> TRAIN-PRUNE | train epoch: 106, loss: 5.532390, similarity: 0.7876
+==>>> CLEAN VALIDATE | epoch: 106, batch index: 20, val loss: 5.088279, val sim: 0.5408
+==>>> TRAIN-PRUNE | train epoch: 107, loss: 5.530534, similarity: 0.7884
+==>>> CLEAN VALIDATE | epoch: 107, batch index: 20, val loss: 5.070188, val sim: 0.5507
+==>>> TRAIN-PRUNE | train epoch: 108, loss: 5.533554, similarity: 0.7870
+==>>> CLEAN VALIDATE | epoch: 108, batch index: 20, val loss: 5.150868, val sim: 0.5204
+==>>> TRAIN-PRUNE | train epoch: 109, loss: 5.533366, similarity: 0.7871
+==>>> CLEAN VALIDATE | epoch: 109, batch index: 20, val loss: 5.137316, val sim: 0.5281
+==>>> TRAIN-PRUNE | train epoch: 110, loss: 5.532067, similarity: 0.7878
+==>>> CLEAN VALIDATE | epoch: 110, batch index: 20, val loss: 5.123319, val sim: 0.5290
+==>>> TRAIN-PRUNE | train epoch: 111, loss: 5.534411, similarity: 0.7867
+==>>> CLEAN VALIDATE | epoch: 111, batch index: 20, val loss: 5.112427, val sim: 0.5353
+==>>> TRAIN-PRUNE | train epoch: 112, loss: 5.531819, similarity: 0.7879
+==>>> CLEAN VALIDATE | epoch: 112, batch index: 20, val loss: 5.133857, val sim: 0.5309
+==>>> TRAIN-PRUNE | train epoch: 113, loss: 5.531812, similarity: 0.7882
+==>>> CLEAN VALIDATE | epoch: 113, batch index: 20, val loss: 5.132068, val sim: 0.5264
+==>>> TRAIN-PRUNE | train epoch: 114, loss: 5.530320, similarity: 0.7886
+==>>> CLEAN VALIDATE | epoch: 114, batch index: 20, val loss: 5.116654, val sim: 0.5362
+==>>> TRAIN-PRUNE | train epoch: 115, loss: 5.526001, similarity: 0.7906
+==>>> CLEAN VALIDATE | epoch: 115, batch index: 20, val loss: 5.114082, val sim: 0.5345
+==>>> TRAIN-PRUNE | train epoch: 116, loss: 5.530127, similarity: 0.7887
+==>>> CLEAN VALIDATE | epoch: 116, batch index: 20, val loss: 5.080038, val sim: 0.5444
+==>>> TRAIN-PRUNE | train epoch: 117, loss: 5.529539, similarity: 0.7891
+==>>> CLEAN VALIDATE | epoch: 117, batch index: 20, val loss: 5.118860, val sim: 0.5315
+==>>> TRAIN-PRUNE | train epoch: 118, loss: 5.529730, similarity: 0.7888
+==>>> CLEAN VALIDATE | epoch: 118, batch index: 20, val loss: 5.110888, val sim: 0.5344
+==>>> TRAIN-PRUNE | train epoch: 119, loss: 5.528431, similarity: 0.7894
+==>>> CLEAN VALIDATE | epoch: 119, batch index: 20, val loss: 5.098356, val sim: 0.5417
+==>>> TRAIN-PRUNE | train epoch: 120, loss: 5.527992, similarity: 0.7892
+==>>> CLEAN VALIDATE | epoch: 120, batch index: 20, val loss: 5.126655, val sim: 0.5284
+==>>> TRAIN-PRUNE | train epoch: 121, loss: 5.528567, similarity: 0.7894
+==>>> CLEAN VALIDATE | epoch: 121, batch index: 20, val loss: 5.130455, val sim: 0.5328
+==>>> TRAIN-PRUNE | train epoch: 122, loss: 5.528489, similarity: 0.7892
+==>>> CLEAN VALIDATE | epoch: 122, batch index: 20, val loss: 5.124037, val sim: 0.5323
+==>>> TRAIN-PRUNE | train epoch: 123, loss: 5.527048, similarity: 0.7896
+==>>> CLEAN VALIDATE | epoch: 123, batch index: 20, val loss: 5.125327, val sim: 0.5279
+==>>> TRAIN-PRUNE | train epoch: 124, loss: 5.526984, similarity: 0.7892
+==>>> CLEAN VALIDATE | epoch: 124, batch index: 20, val loss: 5.103209, val sim: 0.5376
+==>>> TRAIN-PRUNE | train epoch: 125, loss: 5.528664, similarity: 0.7884
+==>>> CLEAN VALIDATE | epoch: 125, batch index: 20, val loss: 5.124171, val sim: 0.5286
+==>>> TRAIN-PRUNE | train epoch: 126, loss: 5.525592, similarity: 0.7898
+==>>> CLEAN VALIDATE | epoch: 126, batch index: 20, val loss: 5.118506, val sim: 0.5354
+==>>> TRAIN-PRUNE | train epoch: 127, loss: 5.523444, similarity: 0.7909
+==>>> CLEAN VALIDATE | epoch: 127, batch index: 20, val loss: 5.112861, val sim: 0.5383
+==>>> TRAIN-PRUNE | train epoch: 128, loss: 5.527420, similarity: 0.7889
+==>>> CLEAN VALIDATE | epoch: 128, batch index: 20, val loss: 5.092178, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 129, loss: 5.526114, similarity: 0.7896
+==>>> CLEAN VALIDATE | epoch: 129, batch index: 20, val loss: 5.116858, val sim: 0.5334
+==>>> TRAIN-PRUNE | train epoch: 130, loss: 5.525662, similarity: 0.7894
+==>>> CLEAN VALIDATE | epoch: 130, batch index: 20, val loss: 5.109501, val sim: 0.5322
+==>>> TRAIN-PRUNE | train epoch: 131, loss: 5.524634, similarity: 0.7899
+==>>> CLEAN VALIDATE | epoch: 131, batch index: 20, val loss: 5.092072, val sim: 0.5384
+==>>> TRAIN-PRUNE | train epoch: 132, loss: 5.520178, similarity: 0.7921
+==>>> CLEAN VALIDATE | epoch: 132, batch index: 20, val loss: 5.107274, val sim: 0.5349
+==>>> TRAIN-PRUNE | train epoch: 133, loss: 5.527504, similarity: 0.7885
+==>>> CLEAN VALIDATE | epoch: 133, batch index: 20, val loss: 5.096057, val sim: 0.5390
+==>>> TRAIN-PRUNE | train epoch: 134, loss: 5.525029, similarity: 0.7898
+==>>> CLEAN VALIDATE | epoch: 134, batch index: 20, val loss: 5.105291, val sim: 0.5343
+==>>> TRAIN-PRUNE | train epoch: 135, loss: 5.524594, similarity: 0.7898
+==>>> CLEAN VALIDATE | epoch: 135, batch index: 20, val loss: 5.120900, val sim: 0.5292
+==>>> TRAIN-PRUNE | train epoch: 136, loss: 5.525496, similarity: 0.7892
+==>>> CLEAN VALIDATE | epoch: 136, batch index: 20, val loss: 5.065622, val sim: 0.5475
+==>>> TRAIN-PRUNE | train epoch: 137, loss: 5.521679, similarity: 0.7908
+==>>> CLEAN VALIDATE | epoch: 137, batch index: 20, val loss: 5.111984, val sim: 0.5330
+==>>> TRAIN-PRUNE | train epoch: 138, loss: 5.520700, similarity: 0.7913
+==>>> CLEAN VALIDATE | epoch: 138, batch index: 20, val loss: 5.126020, val sim: 0.5309
+==>>> TRAIN-PRUNE | train epoch: 139, loss: 5.523992, similarity: 0.7898
+==>>> CLEAN VALIDATE | epoch: 139, batch index: 20, val loss: 5.115615, val sim: 0.5307
+==>>> TRAIN-PRUNE | train epoch: 140, loss: 5.520107, similarity: 0.7912
+==>>> CLEAN VALIDATE | epoch: 140, batch index: 20, val loss: 5.114618, val sim: 0.5349
+==>>> TRAIN-PRUNE | train epoch: 141, loss: 5.519150, similarity: 0.7921
+==>>> CLEAN VALIDATE | epoch: 141, batch index: 20, val loss: 5.081159, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 142, loss: 5.518958, similarity: 0.7919
+==>>> CLEAN VALIDATE | epoch: 142, batch index: 20, val loss: 5.138018, val sim: 0.5263
+==>>> TRAIN-PRUNE | train epoch: 143, loss: 5.521701, similarity: 0.7904
+==>>> CLEAN VALIDATE | epoch: 143, batch index: 20, val loss: 5.094181, val sim: 0.5379
+==>>> TRAIN-PRUNE | train epoch: 144, loss: 5.521248, similarity: 0.7907
+==>>> CLEAN VALIDATE | epoch: 144, batch index: 20, val loss: 5.097768, val sim: 0.5400
+==>>> TRAIN-PRUNE | train epoch: 145, loss: 5.522622, similarity: 0.7902
+==>>> CLEAN VALIDATE | epoch: 145, batch index: 20, val loss: 5.088817, val sim: 0.5396
+==>>> TRAIN-PRUNE | train epoch: 146, loss: 5.519793, similarity: 0.7914
+==>>> CLEAN VALIDATE | epoch: 146, batch index: 20, val loss: 5.110375, val sim: 0.5360
+==>>> TRAIN-PRUNE | train epoch: 147, loss: 5.520177, similarity: 0.7909
+==>>> CLEAN VALIDATE | epoch: 147, batch index: 20, val loss: 5.064766, val sim: 0.5477
+==>>> TRAIN-PRUNE | train epoch: 148, loss: 5.521151, similarity: 0.7908
+==>>> CLEAN VALIDATE | epoch: 148, batch index: 20, val loss: 5.080882, val sim: 0.5438
+==>>> TRAIN-PRUNE | train epoch: 149, loss: 5.514180, similarity: 0.7939
+==>>> CLEAN VALIDATE | epoch: 149, batch index: 20, val loss: 5.058789, val sim: 0.5476
+==>>> TRAIN-PRUNE | train epoch: 150, loss: 5.518267, similarity: 0.7919
+==>>> CLEAN VALIDATE | epoch: 150, batch index: 20, val loss: 5.084411, val sim: 0.5414
+==>>> TRAIN-PRUNE | train epoch: 151, loss: 5.520486, similarity: 0.7908
+==>>> CLEAN VALIDATE | epoch: 151, batch index: 20, val loss: 5.059896, val sim: 0.5479
+==>>> TRAIN-PRUNE | train epoch: 152, loss: 5.516428, similarity: 0.7925
+==>>> CLEAN VALIDATE | epoch: 152, batch index: 20, val loss: 5.083898, val sim: 0.5423
+==>>> TRAIN-PRUNE | train epoch: 153, loss: 5.515664, similarity: 0.7931
+==>>> CLEAN VALIDATE | epoch: 153, batch index: 20, val loss: 5.092990, val sim: 0.5398
+==>>> TRAIN-PRUNE | train epoch: 154, loss: 5.518055, similarity: 0.7920
+==>>> CLEAN VALIDATE | epoch: 154, batch index: 20, val loss: 5.130863, val sim: 0.5278
+==>>> TRAIN-PRUNE | train epoch: 155, loss: 5.515086, similarity: 0.7930
+==>>> CLEAN VALIDATE | epoch: 155, batch index: 20, val loss: 5.065171, val sim: 0.5478
+==>>> TRAIN-PRUNE | train epoch: 156, loss: 5.519512, similarity: 0.7911
+==>>> CLEAN VALIDATE | epoch: 156, batch index: 20, val loss: 5.074166, val sim: 0.5423
+==>>> TRAIN-PRUNE | train epoch: 157, loss: 5.519680, similarity: 0.7908
+==>>> CLEAN VALIDATE | epoch: 157, batch index: 20, val loss: 5.108306, val sim: 0.5347
+==>>> TRAIN-PRUNE | train epoch: 158, loss: 5.515976, similarity: 0.7928
+==>>> CLEAN VALIDATE | epoch: 158, batch index: 20, val loss: 5.104956, val sim: 0.5364
+==>>> TRAIN-PRUNE | train epoch: 159, loss: 5.513771, similarity: 0.7939
+==>>> CLEAN VALIDATE | epoch: 159, batch index: 20, val loss: 5.104526, val sim: 0.5342
+==>>> TRAIN-PRUNE | train epoch: 160, loss: 5.514775, similarity: 0.7935
+==>>> CLEAN VALIDATE | epoch: 160, batch index: 20, val loss: 5.090167, val sim: 0.5366
+==>>> TRAIN-PRUNE | train epoch: 161, loss: 5.515718, similarity: 0.7930
+==>>> CLEAN VALIDATE | epoch: 161, batch index: 20, val loss: 5.082819, val sim: 0.5398
+==>>> TRAIN-PRUNE | train epoch: 162, loss: 5.513793, similarity: 0.7935
+==>>> CLEAN VALIDATE | epoch: 162, batch index: 20, val loss: 5.062129, val sim: 0.5478
+==>>> TRAIN-PRUNE | train epoch: 163, loss: 5.515757, similarity: 0.7927
+==>>> CLEAN VALIDATE | epoch: 163, batch index: 20, val loss: 5.113920, val sim: 0.5311
+==>>> TRAIN-PRUNE | train epoch: 164, loss: 5.520611, similarity: 0.7905
+==>>> CLEAN VALIDATE | epoch: 164, batch index: 20, val loss: 5.111329, val sim: 0.5354
+==>>> TRAIN-PRUNE | train epoch: 165, loss: 5.517526, similarity: 0.7918
+==>>> CLEAN VALIDATE | epoch: 165, batch index: 20, val loss: 5.086929, val sim: 0.5385
+==>>> TRAIN-PRUNE | train epoch: 166, loss: 5.514501, similarity: 0.7933
+==>>> CLEAN VALIDATE | epoch: 166, batch index: 20, val loss: 5.044226, val sim: 0.5576
+==>>> TRAIN-PRUNE | train epoch: 167, loss: 5.515717, similarity: 0.7928
+==>>> CLEAN VALIDATE | epoch: 167, batch index: 20, val loss: 5.118530, val sim: 0.5322
+==>>> TRAIN-PRUNE | train epoch: 168, loss: 5.515832, similarity: 0.7925
+==>>> CLEAN VALIDATE | epoch: 168, batch index: 20, val loss: 5.093890, val sim: 0.5409
+==>>> TRAIN-PRUNE | train epoch: 169, loss: 5.513962, similarity: 0.7935
+==>>> CLEAN VALIDATE | epoch: 169, batch index: 20, val loss: 5.066490, val sim: 0.5483
+==>>> TRAIN-PRUNE | train epoch: 170, loss: 5.511625, similarity: 0.7943
+==>>> CLEAN VALIDATE | epoch: 170, batch index: 20, val loss: 5.077545, val sim: 0.5434
+==>>> TRAIN-PRUNE | train epoch: 171, loss: 5.512703, similarity: 0.7942
+==>>> CLEAN VALIDATE | epoch: 171, batch index: 20, val loss: 5.049098, val sim: 0.5524
+==>>> TRAIN-PRUNE | train epoch: 172, loss: 5.514464, similarity: 0.7928
+==>>> CLEAN VALIDATE | epoch: 172, batch index: 20, val loss: 5.065873, val sim: 0.5497
+==>>> TRAIN-PRUNE | train epoch: 173, loss: 5.517148, similarity: 0.7918
+==>>> CLEAN VALIDATE | epoch: 173, batch index: 20, val loss: 5.075425, val sim: 0.5416
+==>>> TRAIN-PRUNE | train epoch: 174, loss: 5.512040, similarity: 0.7942
+==>>> CLEAN VALIDATE | epoch: 174, batch index: 20, val loss: 5.062299, val sim: 0.5468
+==>>> TRAIN-PRUNE | train epoch: 175, loss: 5.511138, similarity: 0.7947
+==>>> CLEAN VALIDATE | epoch: 175, batch index: 20, val loss: 5.074690, val sim: 0.5437
+==>>> TRAIN-PRUNE | train epoch: 176, loss: 5.513031, similarity: 0.7938
+==>>> CLEAN VALIDATE | epoch: 176, batch index: 20, val loss: 5.109164, val sim: 0.5333
+==>>> TRAIN-PRUNE | train epoch: 177, loss: 5.509627, similarity: 0.7954
+==>>> CLEAN VALIDATE | epoch: 177, batch index: 20, val loss: 5.095524, val sim: 0.5383
+==>>> TRAIN-PRUNE | train epoch: 178, loss: 5.511239, similarity: 0.7945
+==>>> CLEAN VALIDATE | epoch: 178, batch index: 20, val loss: 5.111314, val sim: 0.5357
+==>>> TRAIN-PRUNE | train epoch: 179, loss: 5.512056, similarity: 0.7939
+==>>> CLEAN VALIDATE | epoch: 179, batch index: 20, val loss: 5.040202, val sim: 0.5540
+==>>> TRAIN-PRUNE | train epoch: 180, loss: 5.511434, similarity: 0.7942
+==>>> CLEAN VALIDATE | epoch: 180, batch index: 20, val loss: 5.113690, val sim: 0.5299
+==>>> TRAIN-PRUNE | train epoch: 181, loss: 5.510824, similarity: 0.7947
+==>>> CLEAN VALIDATE | epoch: 181, batch index: 20, val loss: 5.130265, val sim: 0.5303
+==>>> TRAIN-PRUNE | train epoch: 182, loss: 5.510908, similarity: 0.7945
+==>>> CLEAN VALIDATE | epoch: 182, batch index: 20, val loss: 5.080356, val sim: 0.5419
+==>>> TRAIN-PRUNE | train epoch: 183, loss: 5.513435, similarity: 0.7931
+==>>> CLEAN VALIDATE | epoch: 183, batch index: 20, val loss: 5.134531, val sim: 0.5208
+==>>> TRAIN-PRUNE | train epoch: 184, loss: 5.509686, similarity: 0.7951
+==>>> CLEAN VALIDATE | epoch: 184, batch index: 20, val loss: 5.065353, val sim: 0.5447
+==>>> TRAIN-PRUNE | train epoch: 185, loss: 5.511702, similarity: 0.7939
+==>>> CLEAN VALIDATE | epoch: 185, batch index: 20, val loss: 5.122588, val sim: 0.5299
+==>>> TRAIN-PRUNE | train epoch: 186, loss: 5.512080, similarity: 0.7936
+==>>> CLEAN VALIDATE | epoch: 186, batch index: 20, val loss: 5.047314, val sim: 0.5540
+==>>> TRAIN-PRUNE | train epoch: 187, loss: 5.509004, similarity: 0.7952
+==>>> CLEAN VALIDATE | epoch: 187, batch index: 20, val loss: 5.072659, val sim: 0.5429
+==>>> TRAIN-PRUNE | train epoch: 188, loss: 5.508760, similarity: 0.7953
+==>>> CLEAN VALIDATE | epoch: 188, batch index: 20, val loss: 5.088314, val sim: 0.5411
+==>>> TRAIN-PRUNE | train epoch: 189, loss: 5.509280, similarity: 0.7948
+==>>> CLEAN VALIDATE | epoch: 189, batch index: 20, val loss: 5.061340, val sim: 0.5483
+==>>> TRAIN-PRUNE | train epoch: 190, loss: 5.507579, similarity: 0.7958
+==>>> CLEAN VALIDATE | epoch: 190, batch index: 20, val loss: 5.079196, val sim: 0.5429
+==>>> TRAIN-PRUNE | train epoch: 191, loss: 5.511724, similarity: 0.7935
+==>>> CLEAN VALIDATE | epoch: 191, batch index: 20, val loss: 5.080360, val sim: 0.5437
+==>>> TRAIN-PRUNE | train epoch: 192, loss: 5.508930, similarity: 0.7949
+==>>> CLEAN VALIDATE | epoch: 192, batch index: 20, val loss: 5.059915, val sim: 0.5455
+==>>> TRAIN-PRUNE | train epoch: 193, loss: 5.508966, similarity: 0.7944
+==>>> CLEAN VALIDATE | epoch: 193, batch index: 20, val loss: 5.045339, val sim: 0.5535
+==>>> TRAIN-PRUNE | train epoch: 194, loss: 5.506989, similarity: 0.7957
+==>>> CLEAN VALIDATE | epoch: 194, batch index: 20, val loss: 5.076004, val sim: 0.5490
+==>>> TRAIN-PRUNE | train epoch: 195, loss: 5.509369, similarity: 0.7944
+==>>> CLEAN VALIDATE | epoch: 195, batch index: 20, val loss: 5.076719, val sim: 0.5454
+==>>> TRAIN-PRUNE | train epoch: 196, loss: 5.513756, similarity: 0.7922
+==>>> CLEAN VALIDATE | epoch: 196, batch index: 20, val loss: 5.067303, val sim: 0.5437
+==>>> TRAIN-PRUNE | train epoch: 197, loss: 5.510640, similarity: 0.7937
+==>>> CLEAN VALIDATE | epoch: 197, batch index: 20, val loss: 5.075402, val sim: 0.5426
+==>>> TRAIN-PRUNE | train epoch: 198, loss: 5.509328, similarity: 0.7944
+==>>> CLEAN VALIDATE | epoch: 198, batch index: 20, val loss: 5.082297, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 199, loss: 5.509731, similarity: 0.7942
+==>>> CLEAN VALIDATE | epoch: 199, batch index: 20, val loss: 5.085895, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 200, loss: 5.506975, similarity: 0.7954
+==>>> CLEAN VALIDATE | epoch: 200, batch index: 20, val loss: 5.116803, val sim: 0.5304
+==>>> TRAIN-PRUNE | train epoch: 201, loss: 5.507287, similarity: 0.7951
+==>>> CLEAN VALIDATE | epoch: 201, batch index: 20, val loss: 5.097292, val sim: 0.5403
+==>>> TRAIN-PRUNE | train epoch: 202, loss: 5.508355, similarity: 0.7948
+==>>> CLEAN VALIDATE | epoch: 202, batch index: 20, val loss: 5.099107, val sim: 0.5402
+==>>> TRAIN-PRUNE | train epoch: 203, loss: 5.503658, similarity: 0.7970
+==>>> CLEAN VALIDATE | epoch: 203, batch index: 20, val loss: 5.074995, val sim: 0.5466
+==>>> TRAIN-PRUNE | train epoch: 204, loss: 5.507903, similarity: 0.7948
+==>>> CLEAN VALIDATE | epoch: 204, batch index: 20, val loss: 5.055911, val sim: 0.5508
+==>>> TRAIN-PRUNE | train epoch: 205, loss: 5.504585, similarity: 0.7963
+==>>> CLEAN VALIDATE | epoch: 205, batch index: 20, val loss: 5.100878, val sim: 0.5407
+==>>> TRAIN-PRUNE | train epoch: 206, loss: 5.506808, similarity: 0.7953
+==>>> CLEAN VALIDATE | epoch: 206, batch index: 20, val loss: 5.087297, val sim: 0.5403
+==>>> TRAIN-PRUNE | train epoch: 207, loss: 5.505572, similarity: 0.7956
+==>>> CLEAN VALIDATE | epoch: 207, batch index: 20, val loss: 5.056856, val sim: 0.5481
+==>>> TRAIN-PRUNE | train epoch: 208, loss: 5.504166, similarity: 0.7962
+==>>> CLEAN VALIDATE | epoch: 208, batch index: 20, val loss: 5.076384, val sim: 0.5429
+==>>> TRAIN-PRUNE | train epoch: 209, loss: 5.504118, similarity: 0.7960
+==>>> CLEAN VALIDATE | epoch: 209, batch index: 20, val loss: 5.075517, val sim: 0.5422
+==>>> TRAIN-PRUNE | train epoch: 210, loss: 5.505949, similarity: 0.7957
+==>>> CLEAN VALIDATE | epoch: 210, batch index: 20, val loss: 5.133332, val sim: 0.5304
+==>>> TRAIN-PRUNE | train epoch: 211, loss: 5.507868, similarity: 0.7942
+==>>> CLEAN VALIDATE | epoch: 211, batch index: 20, val loss: 5.098261, val sim: 0.5346
+==>>> TRAIN-PRUNE | train epoch: 212, loss: 5.505873, similarity: 0.7953
+==>>> CLEAN VALIDATE | epoch: 212, batch index: 20, val loss: 5.070672, val sim: 0.5427
+==>>> TRAIN-PRUNE | train epoch: 213, loss: 5.506791, similarity: 0.7948
+==>>> CLEAN VALIDATE | epoch: 213, batch index: 20, val loss: 5.073094, val sim: 0.5448
+==>>> TRAIN-PRUNE | train epoch: 214, loss: 5.507281, similarity: 0.7945
+==>>> CLEAN VALIDATE | epoch: 214, batch index: 20, val loss: 5.065517, val sim: 0.5422
+==>>> TRAIN-PRUNE | train epoch: 215, loss: 5.506120, similarity: 0.7952
+==>>> CLEAN VALIDATE | epoch: 215, batch index: 20, val loss: 5.094761, val sim: 0.5371
+==>>> TRAIN-PRUNE | train epoch: 216, loss: 5.507067, similarity: 0.7948
+==>>> CLEAN VALIDATE | epoch: 216, batch index: 20, val loss: 5.078284, val sim: 0.5402
+==>>> TRAIN-PRUNE | train epoch: 217, loss: 5.504794, similarity: 0.7958
+==>>> CLEAN VALIDATE | epoch: 217, batch index: 20, val loss: 5.070792, val sim: 0.5409
+==>>> TRAIN-PRUNE | train epoch: 218, loss: 5.505283, similarity: 0.7954
+==>>> CLEAN VALIDATE | epoch: 218, batch index: 20, val loss: 5.064504, val sim: 0.5470
+==>>> TRAIN-PRUNE | train epoch: 219, loss: 5.505085, similarity: 0.7953
+==>>> CLEAN VALIDATE | epoch: 219, batch index: 20, val loss: 5.059165, val sim: 0.5508
+==>>> TRAIN-PRUNE | train epoch: 220, loss: 5.501401, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 220, batch index: 20, val loss: 5.123684, val sim: 0.5254
+==>>> TRAIN-PRUNE | train epoch: 221, loss: 5.504118, similarity: 0.7960
+==>>> CLEAN VALIDATE | epoch: 221, batch index: 20, val loss: 5.076064, val sim: 0.5418
+==>>> TRAIN-PRUNE | train epoch: 222, loss: 5.505015, similarity: 0.7949
+==>>> CLEAN VALIDATE | epoch: 222, batch index: 20, val loss: 5.079187, val sim: 0.5422
+==>>> TRAIN-PRUNE | train epoch: 223, loss: 5.500863, similarity: 0.7971
+==>>> CLEAN VALIDATE | epoch: 223, batch index: 20, val loss: 5.111693, val sim: 0.5285
+==>>> TRAIN-PRUNE | train epoch: 224, loss: 5.504840, similarity: 0.7953
+==>>> CLEAN VALIDATE | epoch: 224, batch index: 20, val loss: 5.105056, val sim: 0.5332
+==>>> TRAIN-PRUNE | train epoch: 225, loss: 5.503879, similarity: 0.7960
+==>>> CLEAN VALIDATE | epoch: 225, batch index: 20, val loss: 5.118117, val sim: 0.5278
+==>>> TRAIN-PRUNE | train epoch: 226, loss: 5.503637, similarity: 0.7958
+==>>> CLEAN VALIDATE | epoch: 226, batch index: 20, val loss: 5.091671, val sim: 0.5399
+==>>> TRAIN-PRUNE | train epoch: 227, loss: 5.504143, similarity: 0.7955
+==>>> CLEAN VALIDATE | epoch: 227, batch index: 20, val loss: 5.070207, val sim: 0.5458
+==>>> TRAIN-PRUNE | train epoch: 228, loss: 5.505078, similarity: 0.7955
+==>>> CLEAN VALIDATE | epoch: 228, batch index: 20, val loss: 5.093053, val sim: 0.5384
+==>>> TRAIN-PRUNE | train epoch: 229, loss: 5.503795, similarity: 0.7957
+==>>> CLEAN VALIDATE | epoch: 229, batch index: 20, val loss: 5.074052, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 230, loss: 5.501822, similarity: 0.7966
+==>>> CLEAN VALIDATE | epoch: 230, batch index: 20, val loss: 5.062541, val sim: 0.5454
+==>>> TRAIN-PRUNE | train epoch: 231, loss: 5.501719, similarity: 0.7964
+==>>> CLEAN VALIDATE | epoch: 231, batch index: 20, val loss: 5.081743, val sim: 0.5396
+==>>> TRAIN-PRUNE | train epoch: 232, loss: 5.501567, similarity: 0.7967
+==>>> CLEAN VALIDATE | epoch: 232, batch index: 20, val loss: 5.076441, val sim: 0.5415
+==>>> TRAIN-PRUNE | train epoch: 233, loss: 5.501698, similarity: 0.7965
+==>>> CLEAN VALIDATE | epoch: 233, batch index: 20, val loss: 5.117442, val sim: 0.5270
+==>>> TRAIN-PRUNE | train epoch: 234, loss: 5.503751, similarity: 0.7958
+==>>> CLEAN VALIDATE | epoch: 234, batch index: 20, val loss: 5.057574, val sim: 0.5474
+==>>> TRAIN-PRUNE | train epoch: 235, loss: 5.505415, similarity: 0.7949
+==>>> CLEAN VALIDATE | epoch: 235, batch index: 20, val loss: 5.076309, val sim: 0.5418
+==>>> TRAIN-PRUNE | train epoch: 236, loss: 5.500262, similarity: 0.7971
+==>>> CLEAN VALIDATE | epoch: 236, batch index: 20, val loss: 5.099682, val sim: 0.5329
+==>>> TRAIN-PRUNE | train epoch: 237, loss: 5.500620, similarity: 0.7969
+==>>> CLEAN VALIDATE | epoch: 237, batch index: 20, val loss: 5.060674, val sim: 0.5449
+==>>> TRAIN-PRUNE | train epoch: 238, loss: 5.503804, similarity: 0.7954
+==>>> CLEAN VALIDATE | epoch: 238, batch index: 20, val loss: 5.032348, val sim: 0.5550
+==>>> TRAIN-PRUNE | train epoch: 239, loss: 5.500827, similarity: 0.7970
+==>>> CLEAN VALIDATE | epoch: 239, batch index: 20, val loss: 5.111171, val sim: 0.5303
+==>>> TRAIN-PRUNE | train epoch: 240, loss: 5.501206, similarity: 0.7966
+==>>> CLEAN VALIDATE | epoch: 240, batch index: 20, val loss: 5.075439, val sim: 0.5419
+==>>> TRAIN-PRUNE | train epoch: 241, loss: 5.499761, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 241, batch index: 20, val loss: 5.090292, val sim: 0.5363
+==>>> TRAIN-PRUNE | train epoch: 242, loss: 5.502794, similarity: 0.7956
+==>>> CLEAN VALIDATE | epoch: 242, batch index: 20, val loss: 5.034493, val sim: 0.5575
+==>>> TRAIN-PRUNE | train epoch: 243, loss: 5.500064, similarity: 0.7971
+==>>> CLEAN VALIDATE | epoch: 243, batch index: 20, val loss: 5.070891, val sim: 0.5430
+==>>> TRAIN-PRUNE | train epoch: 244, loss: 5.498608, similarity: 0.7978
+==>>> CLEAN VALIDATE | epoch: 244, batch index: 20, val loss: 5.068323, val sim: 0.5420
+==>>> TRAIN-PRUNE | train epoch: 245, loss: 5.499671, similarity: 0.7969
+==>>> CLEAN VALIDATE | epoch: 245, batch index: 20, val loss: 5.069373, val sim: 0.5452
+==>>> TRAIN-PRUNE | train epoch: 246, loss: 5.499110, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 246, batch index: 20, val loss: 5.061814, val sim: 0.5442
+==>>> TRAIN-PRUNE | train epoch: 247, loss: 5.496801, similarity: 0.7983
+==>>> CLEAN VALIDATE | epoch: 247, batch index: 20, val loss: 5.098172, val sim: 0.5325
+==>>> TRAIN-PRUNE | train epoch: 248, loss: 5.503148, similarity: 0.7956
+==>>> CLEAN VALIDATE | epoch: 248, batch index: 20, val loss: 5.090018, val sim: 0.5400
+==>>> TRAIN-PRUNE | train epoch: 249, loss: 5.496648, similarity: 0.7982
+==>>> CLEAN VALIDATE | epoch: 249, batch index: 20, val loss: 5.086923, val sim: 0.5382
+==>>> TRAIN-PRUNE | train epoch: 250, loss: 5.501156, similarity: 0.7960
+==>>> CLEAN VALIDATE | epoch: 250, batch index: 20, val loss: 5.086977, val sim: 0.5399
+==>>> TRAIN-PRUNE | train epoch: 251, loss: 5.498898, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 251, batch index: 20, val loss: 5.075855, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 252, loss: 5.498663, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 252, batch index: 20, val loss: 5.058728, val sim: 0.5452
+==>>> TRAIN-PRUNE | train epoch: 253, loss: 5.496946, similarity: 0.7981
+==>>> CLEAN VALIDATE | epoch: 253, batch index: 20, val loss: 5.089952, val sim: 0.5395
+==>>> TRAIN-PRUNE | train epoch: 254, loss: 5.497264, similarity: 0.7979
+==>>> CLEAN VALIDATE | epoch: 254, batch index: 20, val loss: 5.039802, val sim: 0.5515
+==>>> TRAIN-PRUNE | train epoch: 255, loss: 5.499069, similarity: 0.7968
+==>>> CLEAN VALIDATE | epoch: 255, batch index: 20, val loss: 5.055690, val sim: 0.5452
+==>>> TRAIN-PRUNE | train epoch: 256, loss: 5.499564, similarity: 0.7966
+==>>> CLEAN VALIDATE | epoch: 256, batch index: 20, val loss: 5.087127, val sim: 0.5368
+==>>> TRAIN-PRUNE | train epoch: 257, loss: 5.496928, similarity: 0.7980
+==>>> CLEAN VALIDATE | epoch: 257, batch index: 20, val loss: 5.057482, val sim: 0.5477
+==>>> TRAIN-PRUNE | train epoch: 258, loss: 5.499967, similarity: 0.7962
+==>>> CLEAN VALIDATE | epoch: 258, batch index: 20, val loss: 5.097936, val sim: 0.5389
+==>>> TRAIN-PRUNE | train epoch: 259, loss: 5.497580, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 259, batch index: 20, val loss: 5.085029, val sim: 0.5382
+==>>> TRAIN-PRUNE | train epoch: 260, loss: 5.496667, similarity: 0.7976
+==>>> CLEAN VALIDATE | epoch: 260, batch index: 20, val loss: 5.086668, val sim: 0.5376
+==>>> TRAIN-PRUNE | train epoch: 261, loss: 5.498109, similarity: 0.7971
+==>>> CLEAN VALIDATE | epoch: 261, batch index: 20, val loss: 5.076281, val sim: 0.5401
+==>>> TRAIN-PRUNE | train epoch: 262, loss: 5.498564, similarity: 0.7968
+==>>> CLEAN VALIDATE | epoch: 262, batch index: 20, val loss: 5.071058, val sim: 0.5437
+==>>> TRAIN-PRUNE | train epoch: 263, loss: 5.499646, similarity: 0.7962
+==>>> CLEAN VALIDATE | epoch: 263, batch index: 20, val loss: 5.079998, val sim: 0.5376
+==>>> TRAIN-PRUNE | train epoch: 264, loss: 5.493825, similarity: 0.7991
+==>>> CLEAN VALIDATE | epoch: 264, batch index: 20, val loss: 5.088480, val sim: 0.5393
+==>>> TRAIN-PRUNE | train epoch: 265, loss: 5.497279, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 265, batch index: 20, val loss: 5.085581, val sim: 0.5401
+==>>> TRAIN-PRUNE | train epoch: 266, loss: 5.496669, similarity: 0.7977
+==>>> CLEAN VALIDATE | epoch: 266, batch index: 20, val loss: 5.097978, val sim: 0.5333
+==>>> TRAIN-PRUNE | train epoch: 267, loss: 5.497311, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 267, batch index: 20, val loss: 5.066795, val sim: 0.5442
+==>>> TRAIN-PRUNE | train epoch: 268, loss: 5.497309, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 268, batch index: 20, val loss: 5.080684, val sim: 0.5367
+==>>> TRAIN-PRUNE | train epoch: 269, loss: 5.495788, similarity: 0.7980
+==>>> CLEAN VALIDATE | epoch: 269, batch index: 20, val loss: 5.070890, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 270, loss: 5.496895, similarity: 0.7974
+==>>> CLEAN VALIDATE | epoch: 270, batch index: 20, val loss: 5.075561, val sim: 0.5417
+==>>> TRAIN-PRUNE | train epoch: 271, loss: 5.494028, similarity: 0.7990
+==>>> CLEAN VALIDATE | epoch: 271, batch index: 20, val loss: 5.089602, val sim: 0.5387
+==>>> TRAIN-PRUNE | train epoch: 272, loss: 5.496832, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 272, batch index: 20, val loss: 5.092865, val sim: 0.5465
+==>>> TRAIN-PRUNE | train epoch: 273, loss: 5.495708, similarity: 0.7980
+==>>> CLEAN VALIDATE | epoch: 273, batch index: 20, val loss: 5.045822, val sim: 0.5522
+==>>> TRAIN-PRUNE | train epoch: 274, loss: 5.495190, similarity: 0.7984
+==>>> CLEAN VALIDATE | epoch: 274, batch index: 20, val loss: 5.087646, val sim: 0.5359
+==>>> TRAIN-PRUNE | train epoch: 275, loss: 5.495489, similarity: 0.7979
+==>>> CLEAN VALIDATE | epoch: 275, batch index: 20, val loss: 5.089462, val sim: 0.5369
+==>>> TRAIN-PRUNE | train epoch: 276, loss: 5.496842, similarity: 0.7973
+==>>> CLEAN VALIDATE | epoch: 276, batch index: 20, val loss: 5.058612, val sim: 0.5507
+==>>> TRAIN-PRUNE | train epoch: 277, loss: 5.497429, similarity: 0.7968
+==>>> CLEAN VALIDATE | epoch: 277, batch index: 20, val loss: 5.070370, val sim: 0.5421
+==>>> TRAIN-PRUNE | train epoch: 278, loss: 5.492960, similarity: 0.7988
+==>>> CLEAN VALIDATE | epoch: 278, batch index: 20, val loss: 5.070532, val sim: 0.5435
+==>>> TRAIN-PRUNE | train epoch: 279, loss: 5.497701, similarity: 0.7967
+==>>> CLEAN VALIDATE | epoch: 279, batch index: 20, val loss: 5.081356, val sim: 0.5367
+==>>> TRAIN-PRUNE | train epoch: 280, loss: 5.493261, similarity: 0.7989
+==>>> CLEAN VALIDATE | epoch: 280, batch index: 20, val loss: 5.064835, val sim: 0.5423
+==>>> TRAIN-PRUNE | train epoch: 281, loss: 5.497499, similarity: 0.7969
+==>>> CLEAN VALIDATE | epoch: 281, batch index: 20, val loss: 5.060057, val sim: 0.5440
+==>>> TRAIN-PRUNE | train epoch: 282, loss: 5.496149, similarity: 0.7976
+==>>> CLEAN VALIDATE | epoch: 282, batch index: 20, val loss: 5.088999, val sim: 0.5406
+==>>> TRAIN-PRUNE | train epoch: 283, loss: 5.494882, similarity: 0.7976
+==>>> CLEAN VALIDATE | epoch: 283, batch index: 20, val loss: 5.058840, val sim: 0.5445
+==>>> TRAIN-PRUNE | train epoch: 284, loss: 5.492674, similarity: 0.7990
+==>>> CLEAN VALIDATE | epoch: 284, batch index: 20, val loss: 5.037495, val sim: 0.5561
+==>>> TRAIN-PRUNE | train epoch: 285, loss: 5.496195, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 285, batch index: 20, val loss: 5.050009, val sim: 0.5500
+==>>> TRAIN-PRUNE | train epoch: 286, loss: 5.494485, similarity: 0.7983
+==>>> CLEAN VALIDATE | epoch: 286, batch index: 20, val loss: 5.062869, val sim: 0.5431
+==>>> TRAIN-PRUNE | train epoch: 287, loss: 5.498803, similarity: 0.7957
+==>>> CLEAN VALIDATE | epoch: 287, batch index: 20, val loss: 5.074274, val sim: 0.5423
+==>>> TRAIN-PRUNE | train epoch: 288, loss: 5.495616, similarity: 0.7976
+==>>> CLEAN VALIDATE | epoch: 288, batch index: 20, val loss: 5.072721, val sim: 0.5407
+==>>> TRAIN-PRUNE | train epoch: 289, loss: 5.492810, similarity: 0.7992
+==>>> CLEAN VALIDATE | epoch: 289, batch index: 20, val loss: 5.092891, val sim: 0.5338
+==>>> TRAIN-PRUNE | train epoch: 290, loss: 5.493177, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 290, batch index: 20, val loss: 5.059375, val sim: 0.5430
+==>>> TRAIN-PRUNE | train epoch: 291, loss: 5.497080, similarity: 0.7968
+==>>> CLEAN VALIDATE | epoch: 291, batch index: 20, val loss: 5.077476, val sim: 0.5379
+==>>> TRAIN-PRUNE | train epoch: 292, loss: 5.495162, similarity: 0.7981
+==>>> CLEAN VALIDATE | epoch: 292, batch index: 20, val loss: 5.049238, val sim: 0.5501
+==>>> TRAIN-PRUNE | train epoch: 293, loss: 5.493523, similarity: 0.7985
+==>>> CLEAN VALIDATE | epoch: 293, batch index: 20, val loss: 5.060352, val sim: 0.5444
+==>>> TRAIN-PRUNE | train epoch: 294, loss: 5.491702, similarity: 0.7994
+==>>> CLEAN VALIDATE | epoch: 294, batch index: 20, val loss: 5.031477, val sim: 0.5540
+==>>> TRAIN-PRUNE | train epoch: 295, loss: 5.493057, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 295, batch index: 20, val loss: 5.067078, val sim: 0.5436
+==>>> TRAIN-PRUNE | train epoch: 296, loss: 5.495675, similarity: 0.7974
+==>>> CLEAN VALIDATE | epoch: 296, batch index: 20, val loss: 5.083375, val sim: 0.5379
+==>>> TRAIN-PRUNE | train epoch: 297, loss: 5.492858, similarity: 0.7987
+==>>> CLEAN VALIDATE | epoch: 297, batch index: 20, val loss: 5.054401, val sim: 0.5462
+==>>> TRAIN-PRUNE | train epoch: 298, loss: 5.493089, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 298, batch index: 20, val loss: 5.098959, val sim: 0.5292
+==>>> TRAIN-PRUNE | train epoch: 299, loss: 5.489401, similarity: 0.8003
+==>>> CLEAN VALIDATE | epoch: 299, batch index: 20, val loss: 5.071587, val sim: 0.5452
+==>>> TRAIN-PRUNE | train epoch: 300, loss: 5.495859, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 300, batch index: 20, val loss: 5.083929, val sim: 0.5377
+==>>> TRAIN-PRUNE | train epoch: 301, loss: 5.491061, similarity: 0.7995
+==>>> CLEAN VALIDATE | epoch: 301, batch index: 20, val loss: 5.087431, val sim: 0.5345
+==>>> TRAIN-PRUNE | train epoch: 302, loss: 5.490287, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 302, batch index: 20, val loss: 5.080889, val sim: 0.5361
+==>>> TRAIN-PRUNE | train epoch: 303, loss: 5.494034, similarity: 0.7980
+==>>> CLEAN VALIDATE | epoch: 303, batch index: 20, val loss: 5.072264, val sim: 0.5426
+==>>> TRAIN-PRUNE | train epoch: 304, loss: 5.495800, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 304, batch index: 20, val loss: 5.040944, val sim: 0.5507
+==>>> TRAIN-PRUNE | train epoch: 305, loss: 5.495051, similarity: 0.7974
+==>>> CLEAN VALIDATE | epoch: 305, batch index: 20, val loss: 5.054933, val sim: 0.5484
+==>>> TRAIN-PRUNE | train epoch: 306, loss: 5.491092, similarity: 0.7995
+==>>> CLEAN VALIDATE | epoch: 306, batch index: 20, val loss: 5.065723, val sim: 0.5415
+==>>> TRAIN-PRUNE | train epoch: 307, loss: 5.492986, similarity: 0.7985
+==>>> CLEAN VALIDATE | epoch: 307, batch index: 20, val loss: 5.061305, val sim: 0.5431
+==>>> TRAIN-PRUNE | train epoch: 308, loss: 5.494728, similarity: 0.7977
+==>>> CLEAN VALIDATE | epoch: 308, batch index: 20, val loss: 5.068540, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 309, loss: 5.494293, similarity: 0.7978
+==>>> CLEAN VALIDATE | epoch: 309, batch index: 20, val loss: 5.051711, val sim: 0.5487
+==>>> TRAIN-PRUNE | train epoch: 310, loss: 5.488357, similarity: 0.8006
+==>>> CLEAN VALIDATE | epoch: 310, batch index: 20, val loss: 5.028197, val sim: 0.5557
+==>>> TRAIN-PRUNE | train epoch: 311, loss: 5.492936, similarity: 0.7987
+==>>> CLEAN VALIDATE | epoch: 311, batch index: 20, val loss: 5.081248, val sim: 0.5391
+==>>> TRAIN-PRUNE | train epoch: 312, loss: 5.490854, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 312, batch index: 20, val loss: 5.057432, val sim: 0.5471
+==>>> TRAIN-PRUNE | train epoch: 313, loss: 5.495746, similarity: 0.7972
+==>>> CLEAN VALIDATE | epoch: 313, batch index: 20, val loss: 5.050420, val sim: 0.5485
+==>>> TRAIN-PRUNE | train epoch: 314, loss: 5.494091, similarity: 0.7978
+==>>> CLEAN VALIDATE | epoch: 314, batch index: 20, val loss: 5.063360, val sim: 0.5455
+==>>> TRAIN-PRUNE | train epoch: 315, loss: 5.492965, similarity: 0.7983
+==>>> CLEAN VALIDATE | epoch: 315, batch index: 20, val loss: 5.072560, val sim: 0.5426
+==>>> TRAIN-PRUNE | train epoch: 316, loss: 5.491567, similarity: 0.7990
+==>>> CLEAN VALIDATE | epoch: 316, batch index: 20, val loss: 5.028039, val sim: 0.5553
+==>>> TRAIN-PRUNE | train epoch: 317, loss: 5.492201, similarity: 0.7989
+==>>> CLEAN VALIDATE | epoch: 317, batch index: 20, val loss: 5.069685, val sim: 0.5419
+==>>> TRAIN-PRUNE | train epoch: 318, loss: 5.487512, similarity: 0.8012
+==>>> CLEAN VALIDATE | epoch: 318, batch index: 20, val loss: 5.104229, val sim: 0.5313
+==>>> TRAIN-PRUNE | train epoch: 319, loss: 5.488536, similarity: 0.8005
+==>>> CLEAN VALIDATE | epoch: 319, batch index: 20, val loss: 5.019603, val sim: 0.5589
+==>>> TRAIN-PRUNE | train epoch: 320, loss: 5.492599, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 320, batch index: 20, val loss: 5.082108, val sim: 0.5390
+==>>> TRAIN-PRUNE | train epoch: 321, loss: 5.490391, similarity: 0.7996
+==>>> CLEAN VALIDATE | epoch: 321, batch index: 20, val loss: 5.056843, val sim: 0.5425
+==>>> TRAIN-PRUNE | train epoch: 322, loss: 5.491871, similarity: 0.7989
+==>>> CLEAN VALIDATE | epoch: 322, batch index: 20, val loss: 5.046937, val sim: 0.5499
+==>>> TRAIN-PRUNE | train epoch: 323, loss: 5.490871, similarity: 0.7994
+==>>> CLEAN VALIDATE | epoch: 323, batch index: 20, val loss: 5.067915, val sim: 0.5435
+==>>> TRAIN-PRUNE | train epoch: 324, loss: 5.487631, similarity: 0.8013
+==>>> CLEAN VALIDATE | epoch: 324, batch index: 20, val loss: 5.064951, val sim: 0.5454
+==>>> TRAIN-PRUNE | train epoch: 325, loss: 5.493742, similarity: 0.7984
+==>>> CLEAN VALIDATE | epoch: 325, batch index: 20, val loss: 5.051383, val sim: 0.5468
+==>>> TRAIN-PRUNE | train epoch: 326, loss: 5.488071, similarity: 0.8011
+==>>> CLEAN VALIDATE | epoch: 326, batch index: 20, val loss: 5.046868, val sim: 0.5489
+==>>> TRAIN-PRUNE | train epoch: 327, loss: 5.490224, similarity: 0.7993
+==>>> CLEAN VALIDATE | epoch: 327, batch index: 20, val loss: 5.033616, val sim: 0.5524
+==>>> TRAIN-PRUNE | train epoch: 328, loss: 5.488984, similarity: 0.8003
+==>>> CLEAN VALIDATE | epoch: 328, batch index: 20, val loss: 5.038264, val sim: 0.5552
+==>>> TRAIN-PRUNE | train epoch: 329, loss: 5.489912, similarity: 0.7997
+==>>> CLEAN VALIDATE | epoch: 329, batch index: 20, val loss: 5.087225, val sim: 0.5331
+==>>> TRAIN-PRUNE | train epoch: 330, loss: 5.491357, similarity: 0.7989
+==>>> CLEAN VALIDATE | epoch: 330, batch index: 20, val loss: 5.078344, val sim: 0.5390
+==>>> TRAIN-PRUNE | train epoch: 331, loss: 5.488425, similarity: 0.8006
+==>>> CLEAN VALIDATE | epoch: 331, batch index: 20, val loss: 5.036565, val sim: 0.5506
+==>>> TRAIN-PRUNE | train epoch: 332, loss: 5.493670, similarity: 0.7979
+==>>> CLEAN VALIDATE | epoch: 332, batch index: 20, val loss: 5.064125, val sim: 0.5454
+==>>> TRAIN-PRUNE | train epoch: 333, loss: 5.488826, similarity: 0.8002
+==>>> CLEAN VALIDATE | epoch: 333, batch index: 20, val loss: 5.084053, val sim: 0.5369
+==>>> TRAIN-PRUNE | train epoch: 334, loss: 5.491845, similarity: 0.7988
+==>>> CLEAN VALIDATE | epoch: 334, batch index: 20, val loss: 5.025912, val sim: 0.5547
+==>>> TRAIN-PRUNE | train epoch: 335, loss: 5.488905, similarity: 0.8004
+==>>> CLEAN VALIDATE | epoch: 335, batch index: 20, val loss: 5.064333, val sim: 0.5425
+==>>> TRAIN-PRUNE | train epoch: 336, loss: 5.484473, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 336, batch index: 20, val loss: 5.082217, val sim: 0.5357
+==>>> TRAIN-PRUNE | train epoch: 337, loss: 5.490456, similarity: 0.7993
+==>>> CLEAN VALIDATE | epoch: 337, batch index: 20, val loss: 5.068621, val sim: 0.5397
+==>>> TRAIN-PRUNE | train epoch: 338, loss: 5.488434, similarity: 0.8006
+==>>> CLEAN VALIDATE | epoch: 338, batch index: 20, val loss: 5.063377, val sim: 0.5419
+==>>> TRAIN-PRUNE | train epoch: 339, loss: 5.489010, similarity: 0.8002
+==>>> CLEAN VALIDATE | epoch: 339, batch index: 20, val loss: 5.018721, val sim: 0.5572
+==>>> TRAIN-PRUNE | train epoch: 340, loss: 5.490300, similarity: 0.7997
+==>>> CLEAN VALIDATE | epoch: 340, batch index: 20, val loss: 5.067259, val sim: 0.5422
+==>>> TRAIN-PRUNE | train epoch: 341, loss: 5.491422, similarity: 0.7989
+==>>> CLEAN VALIDATE | epoch: 341, batch index: 20, val loss: 5.063962, val sim: 0.5433
+==>>> TRAIN-PRUNE | train epoch: 342, loss: 5.487614, similarity: 0.8009
+==>>> CLEAN VALIDATE | epoch: 342, batch index: 20, val loss: 5.052114, val sim: 0.5480
+==>>> TRAIN-PRUNE | train epoch: 343, loss: 5.487964, similarity: 0.8007
+==>>> CLEAN VALIDATE | epoch: 343, batch index: 20, val loss: 5.043934, val sim: 0.5478
+==>>> TRAIN-PRUNE | train epoch: 344, loss: 5.486516, similarity: 0.8010
+==>>> CLEAN VALIDATE | epoch: 344, batch index: 20, val loss: 5.077640, val sim: 0.5411
+==>>> TRAIN-PRUNE | train epoch: 345, loss: 5.491534, similarity: 0.7991
+==>>> CLEAN VALIDATE | epoch: 345, batch index: 20, val loss: 5.089573, val sim: 0.5348
+==>>> TRAIN-PRUNE | train epoch: 346, loss: 5.490259, similarity: 0.7999
+==>>> CLEAN VALIDATE | epoch: 346, batch index: 20, val loss: 5.073765, val sim: 0.5396
+==>>> TRAIN-PRUNE | train epoch: 347, loss: 5.489696, similarity: 0.7995
+==>>> CLEAN VALIDATE | epoch: 347, batch index: 20, val loss: 5.041043, val sim: 0.5500
+==>>> TRAIN-PRUNE | train epoch: 348, loss: 5.488536, similarity: 0.8004
+==>>> CLEAN VALIDATE | epoch: 348, batch index: 20, val loss: 5.077841, val sim: 0.5396
+==>>> TRAIN-PRUNE | train epoch: 349, loss: 5.492866, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 349, batch index: 20, val loss: 5.060265, val sim: 0.5451
+==>>> TRAIN-PRUNE | train epoch: 350, loss: 5.490258, similarity: 0.7997
+==>>> CLEAN VALIDATE | epoch: 350, batch index: 20, val loss: 5.047674, val sim: 0.5496
+==>>> TRAIN-PRUNE | train epoch: 351, loss: 5.487723, similarity: 0.8007
+==>>> CLEAN VALIDATE | epoch: 351, batch index: 20, val loss: 5.074676, val sim: 0.5398
+==>>> TRAIN-PRUNE | train epoch: 352, loss: 5.487263, similarity: 0.8011
+==>>> CLEAN VALIDATE | epoch: 352, batch index: 20, val loss: 5.094488, val sim: 0.5348
+==>>> TRAIN-PRUNE | train epoch: 353, loss: 5.489936, similarity: 0.7997
+==>>> CLEAN VALIDATE | epoch: 353, batch index: 20, val loss: 5.109355, val sim: 0.5298
+==>>> TRAIN-PRUNE | train epoch: 354, loss: 5.487291, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 354, batch index: 20, val loss: 5.045646, val sim: 0.5505
+==>>> TRAIN-PRUNE | train epoch: 355, loss: 5.489035, similarity: 0.8001
+==>>> CLEAN VALIDATE | epoch: 355, batch index: 20, val loss: 5.058254, val sim: 0.5467
+==>>> TRAIN-PRUNE | train epoch: 356, loss: 5.489767, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 356, batch index: 20, val loss: 5.069272, val sim: 0.5442
+==>>> TRAIN-PRUNE | train epoch: 357, loss: 5.489735, similarity: 0.8001
+==>>> CLEAN VALIDATE | epoch: 357, batch index: 20, val loss: 5.082509, val sim: 0.5372
+==>>> TRAIN-PRUNE | train epoch: 358, loss: 5.487415, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 358, batch index: 20, val loss: 5.043742, val sim: 0.5502
+==>>> TRAIN-PRUNE | train epoch: 359, loss: 5.488864, similarity: 0.8003
+==>>> CLEAN VALIDATE | epoch: 359, batch index: 20, val loss: 5.060026, val sim: 0.5486
+==>>> TRAIN-PRUNE | train epoch: 360, loss: 5.485746, similarity: 0.8016
+==>>> CLEAN VALIDATE | epoch: 360, batch index: 20, val loss: 5.036622, val sim: 0.5557
+==>>> TRAIN-PRUNE | train epoch: 361, loss: 5.490332, similarity: 0.7992
+==>>> CLEAN VALIDATE | epoch: 361, batch index: 20, val loss: 5.049623, val sim: 0.5475
+==>>> TRAIN-PRUNE | train epoch: 362, loss: 5.492033, similarity: 0.7986
+==>>> CLEAN VALIDATE | epoch: 362, batch index: 20, val loss: 5.061993, val sim: 0.5458
+==>>> TRAIN-PRUNE | train epoch: 363, loss: 5.490694, similarity: 0.7994
+==>>> CLEAN VALIDATE | epoch: 363, batch index: 20, val loss: 5.088508, val sim: 0.5335
+==>>> TRAIN-PRUNE | train epoch: 364, loss: 5.488015, similarity: 0.8006
+==>>> CLEAN VALIDATE | epoch: 364, batch index: 20, val loss: 5.045085, val sim: 0.5473
+==>>> TRAIN-PRUNE | train epoch: 365, loss: 5.489926, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 365, batch index: 20, val loss: 5.095170, val sim: 0.5305
+==>>> TRAIN-PRUNE | train epoch: 366, loss: 5.490713, similarity: 0.7991
+==>>> CLEAN VALIDATE | epoch: 366, batch index: 20, val loss: 5.066127, val sim: 0.5442
+==>>> TRAIN-PRUNE | train epoch: 367, loss: 5.489472, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 367, batch index: 20, val loss: 5.066864, val sim: 0.5448
+==>>> TRAIN-PRUNE | train epoch: 368, loss: 5.487382, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 368, batch index: 20, val loss: 5.080706, val sim: 0.5361
+==>>> TRAIN-PRUNE | train epoch: 369, loss: 5.485970, similarity: 0.8015
+==>>> CLEAN VALIDATE | epoch: 369, batch index: 20, val loss: 5.086762, val sim: 0.5344
+==>>> TRAIN-PRUNE | train epoch: 370, loss: 5.485985, similarity: 0.8017
+==>>> CLEAN VALIDATE | epoch: 370, batch index: 20, val loss: 5.091340, val sim: 0.5349
+==>>> TRAIN-PRUNE | train epoch: 371, loss: 5.487927, similarity: 0.8006
+==>>> CLEAN VALIDATE | epoch: 371, batch index: 20, val loss: 5.076427, val sim: 0.5394
+==>>> TRAIN-PRUNE | train epoch: 372, loss: 5.487348, similarity: 0.8005
+==>>> CLEAN VALIDATE | epoch: 372, batch index: 20, val loss: 5.073730, val sim: 0.5398
+==>>> TRAIN-PRUNE | train epoch: 373, loss: 5.486795, similarity: 0.8012
+==>>> CLEAN VALIDATE | epoch: 373, batch index: 20, val loss: 5.065808, val sim: 0.5435
+==>>> TRAIN-PRUNE | train epoch: 374, loss: 5.489506, similarity: 0.7999
+==>>> CLEAN VALIDATE | epoch: 374, batch index: 20, val loss: 5.038178, val sim: 0.5521
+==>>> TRAIN-PRUNE | train epoch: 375, loss: 5.485220, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 375, batch index: 20, val loss: 5.063552, val sim: 0.5433
+==>>> TRAIN-PRUNE | train epoch: 376, loss: 5.485406, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 376, batch index: 20, val loss: 5.110057, val sim: 0.5322
+==>>> TRAIN-PRUNE | train epoch: 377, loss: 5.484400, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 377, batch index: 20, val loss: 5.071289, val sim: 0.5430
+==>>> TRAIN-PRUNE | train epoch: 378, loss: 5.488203, similarity: 0.8002
+==>>> CLEAN VALIDATE | epoch: 378, batch index: 20, val loss: 5.099400, val sim: 0.5327
+==>>> TRAIN-PRUNE | train epoch: 379, loss: 5.485273, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 379, batch index: 20, val loss: 5.072689, val sim: 0.5420
+==>>> TRAIN-PRUNE | train epoch: 380, loss: 5.487273, similarity: 0.8013
+==>>> CLEAN VALIDATE | epoch: 380, batch index: 20, val loss: 5.073043, val sim: 0.5404
+==>>> TRAIN-PRUNE | train epoch: 381, loss: 5.486339, similarity: 0.8014
+==>>> CLEAN VALIDATE | epoch: 381, batch index: 20, val loss: 5.063714, val sim: 0.5432
+==>>> TRAIN-PRUNE | train epoch: 382, loss: 5.487219, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 382, batch index: 20, val loss: 5.056146, val sim: 0.5427
+==>>> TRAIN-PRUNE | train epoch: 383, loss: 5.485217, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 383, batch index: 20, val loss: 5.100412, val sim: 0.5310
+==>>> TRAIN-PRUNE | train epoch: 384, loss: 5.485201, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 384, batch index: 20, val loss: 5.045522, val sim: 0.5483
+==>>> TRAIN-PRUNE | train epoch: 385, loss: 5.485582, similarity: 0.8016
+==>>> CLEAN VALIDATE | epoch: 385, batch index: 20, val loss: 5.059975, val sim: 0.5467
+==>>> TRAIN-PRUNE | train epoch: 386, loss: 5.484553, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 386, batch index: 20, val loss: 5.060157, val sim: 0.5462
+==>>> TRAIN-PRUNE | train epoch: 387, loss: 5.484069, similarity: 0.8023
+==>>> CLEAN VALIDATE | epoch: 387, batch index: 20, val loss: 5.058216, val sim: 0.5458
+==>>> TRAIN-PRUNE | train epoch: 388, loss: 5.482762, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 388, batch index: 20, val loss: 5.059179, val sim: 0.5451
+==>>> TRAIN-PRUNE | train epoch: 389, loss: 5.488658, similarity: 0.7999
+==>>> CLEAN VALIDATE | epoch: 389, batch index: 20, val loss: 5.058090, val sim: 0.5449
+==>>> TRAIN-PRUNE | train epoch: 390, loss: 5.484553, similarity: 0.8020
+==>>> CLEAN VALIDATE | epoch: 390, batch index: 20, val loss: 5.038720, val sim: 0.5505
+==>>> TRAIN-PRUNE | train epoch: 391, loss: 5.483541, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 391, batch index: 20, val loss: 5.066298, val sim: 0.5426
+==>>> TRAIN-PRUNE | train epoch: 392, loss: 5.486446, similarity: 0.8013
+==>>> CLEAN VALIDATE | epoch: 392, batch index: 20, val loss: 5.091957, val sim: 0.5368
+==>>> TRAIN-PRUNE | train epoch: 393, loss: 5.483052, similarity: 0.8029
+==>>> CLEAN VALIDATE | epoch: 393, batch index: 20, val loss: 5.052680, val sim: 0.5457
+==>>> TRAIN-PRUNE | train epoch: 394, loss: 5.484126, similarity: 0.8020
+==>>> CLEAN VALIDATE | epoch: 394, batch index: 20, val loss: 5.047159, val sim: 0.5487
+==>>> TRAIN-PRUNE | train epoch: 395, loss: 5.487270, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 395, batch index: 20, val loss: 5.083712, val sim: 0.5374
+==>>> TRAIN-PRUNE | train epoch: 396, loss: 5.484459, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 396, batch index: 20, val loss: 5.068632, val sim: 0.5412
+==>>> TRAIN-PRUNE | train epoch: 397, loss: 5.485237, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 397, batch index: 20, val loss: 5.078954, val sim: 0.5359
+==>>> TRAIN-PRUNE | train epoch: 398, loss: 5.485075, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 398, batch index: 20, val loss: 5.035056, val sim: 0.5552
+==>>> TRAIN-PRUNE | train epoch: 399, loss: 5.485551, similarity: 0.8016
+==>>> CLEAN VALIDATE | epoch: 399, batch index: 20, val loss: 5.048627, val sim: 0.5477
+==>>> TRAIN-PRUNE | train epoch: 400, loss: 5.488369, similarity: 0.7998
+==>>> CLEAN VALIDATE | epoch: 400, batch index: 20, val loss: 5.078785, val sim: 0.5396
+==>>> TRAIN-PRUNE | train epoch: 401, loss: 5.484773, similarity: 0.8020
+==>>> CLEAN VALIDATE | epoch: 401, batch index: 20, val loss: 5.066486, val sim: 0.5447
+==>>> TRAIN-PRUNE | train epoch: 402, loss: 5.482315, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 402, batch index: 20, val loss: 5.059509, val sim: 0.5448
+==>>> TRAIN-PRUNE | train epoch: 403, loss: 5.481935, similarity: 0.8033
+==>>> CLEAN VALIDATE | epoch: 403, batch index: 20, val loss: 5.059986, val sim: 0.5461
+==>>> TRAIN-PRUNE | train epoch: 404, loss: 5.489023, similarity: 0.7999
+==>>> CLEAN VALIDATE | epoch: 404, batch index: 20, val loss: 5.056796, val sim: 0.5474
+==>>> TRAIN-PRUNE | train epoch: 405, loss: 5.483794, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 405, batch index: 20, val loss: 5.046858, val sim: 0.5478
+==>>> TRAIN-PRUNE | train epoch: 406, loss: 5.485346, similarity: 0.8015
+==>>> CLEAN VALIDATE | epoch: 406, batch index: 20, val loss: 5.077869, val sim: 0.5373
+==>>> TRAIN-PRUNE | train epoch: 407, loss: 5.484579, similarity: 0.8020
+==>>> CLEAN VALIDATE | epoch: 407, batch index: 20, val loss: 5.034477, val sim: 0.5541
+==>>> TRAIN-PRUNE | train epoch: 408, loss: 5.487522, similarity: 0.8005
+==>>> CLEAN VALIDATE | epoch: 408, batch index: 20, val loss: 5.071089, val sim: 0.5428
+==>>> TRAIN-PRUNE | train epoch: 409, loss: 5.484372, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 409, batch index: 20, val loss: 5.041146, val sim: 0.5501
+==>>> TRAIN-PRUNE | train epoch: 410, loss: 5.486948, similarity: 0.8008
+==>>> CLEAN VALIDATE | epoch: 410, batch index: 20, val loss: 5.072278, val sim: 0.5399
+==>>> TRAIN-PRUNE | train epoch: 411, loss: 5.484816, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 411, batch index: 20, val loss: 5.045228, val sim: 0.5475
+==>>> TRAIN-PRUNE | train epoch: 412, loss: 5.484346, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 412, batch index: 20, val loss: 5.090613, val sim: 0.5341
+==>>> TRAIN-PRUNE | train epoch: 413, loss: 5.483032, similarity: 0.8028
+==>>> CLEAN VALIDATE | epoch: 413, batch index: 20, val loss: 5.051990, val sim: 0.5484
+==>>> TRAIN-PRUNE | train epoch: 414, loss: 5.485686, similarity: 0.8014
+==>>> CLEAN VALIDATE | epoch: 414, batch index: 20, val loss: 5.062483, val sim: 0.5421
+==>>> TRAIN-PRUNE | train epoch: 415, loss: 5.484446, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 415, batch index: 20, val loss: 5.058898, val sim: 0.5458
+==>>> TRAIN-PRUNE | train epoch: 416, loss: 5.486216, similarity: 0.8011
+==>>> CLEAN VALIDATE | epoch: 416, batch index: 20, val loss: 5.059256, val sim: 0.5463
+==>>> TRAIN-PRUNE | train epoch: 417, loss: 5.480948, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 417, batch index: 20, val loss: 5.042913, val sim: 0.5493
+==>>> TRAIN-PRUNE | train epoch: 418, loss: 5.484218, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 418, batch index: 20, val loss: 5.072104, val sim: 0.5405
+==>>> TRAIN-PRUNE | train epoch: 419, loss: 5.484321, similarity: 0.8019
+==>>> CLEAN VALIDATE | epoch: 419, batch index: 20, val loss: 5.064880, val sim: 0.5415
+==>>> TRAIN-PRUNE | train epoch: 420, loss: 5.486137, similarity: 0.8015
+==>>> CLEAN VALIDATE | epoch: 420, batch index: 20, val loss: 5.062879, val sim: 0.5429
+==>>> TRAIN-PRUNE | train epoch: 421, loss: 5.481362, similarity: 0.8037
+==>>> CLEAN VALIDATE | epoch: 421, batch index: 20, val loss: 5.090716, val sim: 0.5348
+==>>> TRAIN-PRUNE | train epoch: 422, loss: 5.484733, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 422, batch index: 20, val loss: 5.041244, val sim: 0.5508
+==>>> TRAIN-PRUNE | train epoch: 423, loss: 5.485635, similarity: 0.8013
+==>>> CLEAN VALIDATE | epoch: 423, batch index: 20, val loss: 5.036822, val sim: 0.5519
+==>>> TRAIN-PRUNE | train epoch: 424, loss: 5.484832, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 424, batch index: 20, val loss: 5.068313, val sim: 0.5429
+==>>> TRAIN-PRUNE | train epoch: 425, loss: 5.484662, similarity: 0.8017
+==>>> CLEAN VALIDATE | epoch: 425, batch index: 20, val loss: 5.030348, val sim: 0.5538
+==>>> TRAIN-PRUNE | train epoch: 426, loss: 5.484161, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 426, batch index: 20, val loss: 5.060159, val sim: 0.5427
+==>>> TRAIN-PRUNE | train epoch: 427, loss: 5.484760, similarity: 0.8020
+==>>> CLEAN VALIDATE | epoch: 427, batch index: 20, val loss: 5.064723, val sim: 0.5433
+==>>> TRAIN-PRUNE | train epoch: 428, loss: 5.485627, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 428, batch index: 20, val loss: 5.061906, val sim: 0.5415
+==>>> TRAIN-PRUNE | train epoch: 429, loss: 5.481513, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 429, batch index: 20, val loss: 5.058919, val sim: 0.5426
+==>>> TRAIN-PRUNE | train epoch: 430, loss: 5.483226, similarity: 0.8028
+==>>> CLEAN VALIDATE | epoch: 430, batch index: 20, val loss: 5.075560, val sim: 0.5389
+==>>> TRAIN-PRUNE | train epoch: 431, loss: 5.482791, similarity: 0.8027
+==>>> CLEAN VALIDATE | epoch: 431, batch index: 20, val loss: 5.034905, val sim: 0.5543
+==>>> TRAIN-PRUNE | train epoch: 432, loss: 5.481435, similarity: 0.8035
+==>>> CLEAN VALIDATE | epoch: 432, batch index: 20, val loss: 5.051015, val sim: 0.5536
+==>>> TRAIN-PRUNE | train epoch: 433, loss: 5.483687, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 433, batch index: 20, val loss: 5.046575, val sim: 0.5464
+==>>> TRAIN-PRUNE | train epoch: 434, loss: 5.481908, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 434, batch index: 20, val loss: 5.064292, val sim: 0.5421
+==>>> TRAIN-PRUNE | train epoch: 435, loss: 5.483892, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 435, batch index: 20, val loss: 5.040746, val sim: 0.5499
+==>>> TRAIN-PRUNE | train epoch: 436, loss: 5.483240, similarity: 0.8025
+==>>> CLEAN VALIDATE | epoch: 436, batch index: 20, val loss: 5.051957, val sim: 0.5492
+==>>> TRAIN-PRUNE | train epoch: 437, loss: 5.483502, similarity: 0.8026
+==>>> CLEAN VALIDATE | epoch: 437, batch index: 20, val loss: 5.101208, val sim: 0.5305
+==>>> TRAIN-PRUNE | train epoch: 438, loss: 5.483420, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 438, batch index: 20, val loss: 5.039367, val sim: 0.5518
+==>>> TRAIN-PRUNE | train epoch: 439, loss: 5.479180, similarity: 0.8043
+==>>> CLEAN VALIDATE | epoch: 439, batch index: 20, val loss: 5.069700, val sim: 0.5392
+==>>> TRAIN-PRUNE | train epoch: 440, loss: 5.484818, similarity: 0.8016
+==>>> CLEAN VALIDATE | epoch: 440, batch index: 20, val loss: 5.052773, val sim: 0.5466
+==>>> TRAIN-PRUNE | train epoch: 441, loss: 5.481024, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 441, batch index: 20, val loss: 5.053027, val sim: 0.5477
+==>>> TRAIN-PRUNE | train epoch: 442, loss: 5.483641, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 442, batch index: 20, val loss: 5.064650, val sim: 0.5432
+==>>> TRAIN-PRUNE | train epoch: 443, loss: 5.480129, similarity: 0.8039
+==>>> CLEAN VALIDATE | epoch: 443, batch index: 20, val loss: 5.043154, val sim: 0.5506
+==>>> TRAIN-PRUNE | train epoch: 444, loss: 5.482406, similarity: 0.8027
+==>>> CLEAN VALIDATE | epoch: 444, batch index: 20, val loss: 5.080050, val sim: 0.5386
+==>>> TRAIN-PRUNE | train epoch: 445, loss: 5.482643, similarity: 0.8027
+==>>> CLEAN VALIDATE | epoch: 445, batch index: 20, val loss: 5.030933, val sim: 0.5553
+==>>> TRAIN-PRUNE | train epoch: 446, loss: 5.480083, similarity: 0.8042
+==>>> CLEAN VALIDATE | epoch: 446, batch index: 20, val loss: 5.076463, val sim: 0.5373
+==>>> TRAIN-PRUNE | train epoch: 447, loss: 5.484219, similarity: 0.8018
+==>>> CLEAN VALIDATE | epoch: 447, batch index: 20, val loss: 5.095182, val sim: 0.5382
+==>>> TRAIN-PRUNE | train epoch: 448, loss: 5.483799, similarity: 0.8025
+==>>> CLEAN VALIDATE | epoch: 448, batch index: 20, val loss: 5.081563, val sim: 0.5354
+==>>> TRAIN-PRUNE | train epoch: 449, loss: 5.476940, similarity: 0.8054
+==>>> CLEAN VALIDATE | epoch: 449, batch index: 20, val loss: 5.030821, val sim: 0.5543
+==>>> TRAIN-PRUNE | train epoch: 450, loss: 5.481727, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 450, batch index: 20, val loss: 5.099126, val sim: 0.5337
+==>>> TRAIN-PRUNE | train epoch: 451, loss: 5.481461, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 451, batch index: 20, val loss: 5.062708, val sim: 0.5448
+==>>> TRAIN-PRUNE | train epoch: 452, loss: 5.481858, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 452, batch index: 20, val loss: 5.093180, val sim: 0.5309
+==>>> TRAIN-PRUNE | train epoch: 453, loss: 5.480268, similarity: 0.8037
+==>>> CLEAN VALIDATE | epoch: 453, batch index: 20, val loss: 5.020524, val sim: 0.5571
+==>>> TRAIN-PRUNE | train epoch: 454, loss: 5.482873, similarity: 0.8023
+==>>> CLEAN VALIDATE | epoch: 454, batch index: 20, val loss: 5.023703, val sim: 0.5562
+==>>> TRAIN-PRUNE | train epoch: 455, loss: 5.483552, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 455, batch index: 20, val loss: 5.110272, val sim: 0.5289
+==>>> TRAIN-PRUNE | train epoch: 456, loss: 5.477396, similarity: 0.8050
+==>>> CLEAN VALIDATE | epoch: 456, batch index: 20, val loss: 5.074933, val sim: 0.5378
+==>>> TRAIN-PRUNE | train epoch: 457, loss: 5.480117, similarity: 0.8037
+==>>> CLEAN VALIDATE | epoch: 457, batch index: 20, val loss: 5.032535, val sim: 0.5534
+==>>> TRAIN-PRUNE | train epoch: 458, loss: 5.479347, similarity: 0.8043
+==>>> CLEAN VALIDATE | epoch: 458, batch index: 20, val loss: 5.025476, val sim: 0.5562
+==>>> TRAIN-PRUNE | train epoch: 459, loss: 5.479944, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 459, batch index: 20, val loss: 5.021713, val sim: 0.5570
+==>>> TRAIN-PRUNE | train epoch: 460, loss: 5.480369, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 460, batch index: 20, val loss: 5.031067, val sim: 0.5530
+==>>> TRAIN-PRUNE | train epoch: 461, loss: 5.482755, similarity: 0.8024
+==>>> CLEAN VALIDATE | epoch: 461, batch index: 20, val loss: 5.058121, val sim: 0.5461
+==>>> TRAIN-PRUNE | train epoch: 462, loss: 5.480383, similarity: 0.8038
+==>>> CLEAN VALIDATE | epoch: 462, batch index: 20, val loss: 5.065733, val sim: 0.5427
+==>>> TRAIN-PRUNE | train epoch: 463, loss: 5.481942, similarity: 0.8027
+==>>> CLEAN VALIDATE | epoch: 463, batch index: 20, val loss: 5.095207, val sim: 0.5350
+==>>> TRAIN-PRUNE | train epoch: 464, loss: 5.483178, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 464, batch index: 20, val loss: 5.036692, val sim: 0.5517
+==>>> TRAIN-PRUNE | train epoch: 465, loss: 5.480414, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 465, batch index: 20, val loss: 5.015254, val sim: 0.5575
+==>>> TRAIN-PRUNE | train epoch: 466, loss: 5.480872, similarity: 0.8034
+==>>> CLEAN VALIDATE | epoch: 466, batch index: 20, val loss: 5.044419, val sim: 0.5497
+==>>> TRAIN-PRUNE | train epoch: 467, loss: 5.482252, similarity: 0.8029
+==>>> CLEAN VALIDATE | epoch: 467, batch index: 20, val loss: 5.081882, val sim: 0.5400
+==>>> TRAIN-PRUNE | train epoch: 468, loss: 5.481468, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 468, batch index: 20, val loss: 5.029238, val sim: 0.5544
+==>>> TRAIN-PRUNE | train epoch: 469, loss: 5.481671, similarity: 0.8028
+==>>> CLEAN VALIDATE | epoch: 469, batch index: 20, val loss: 5.028165, val sim: 0.5531
+==>>> TRAIN-PRUNE | train epoch: 470, loss: 5.480551, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 470, batch index: 20, val loss: 5.080791, val sim: 0.5383
+==>>> TRAIN-PRUNE | train epoch: 471, loss: 5.483756, similarity: 0.8022
+==>>> CLEAN VALIDATE | epoch: 471, batch index: 20, val loss: 5.082937, val sim: 0.5358
+==>>> TRAIN-PRUNE | train epoch: 472, loss: 5.479010, similarity: 0.8044
+==>>> CLEAN VALIDATE | epoch: 472, batch index: 20, val loss: 5.030980, val sim: 0.5524
+==>>> TRAIN-PRUNE | train epoch: 473, loss: 5.481220, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 473, batch index: 20, val loss: 5.088898, val sim: 0.5332
+==>>> TRAIN-PRUNE | train epoch: 474, loss: 5.481593, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 474, batch index: 20, val loss: 5.070036, val sim: 0.5401
+==>>> TRAIN-PRUNE | train epoch: 475, loss: 5.477613, similarity: 0.8051
+==>>> CLEAN VALIDATE | epoch: 475, batch index: 20, val loss: 5.053728, val sim: 0.5463
+==>>> TRAIN-PRUNE | train epoch: 476, loss: 5.482575, similarity: 0.8021
+==>>> CLEAN VALIDATE | epoch: 476, batch index: 20, val loss: 5.053980, val sim: 0.5474
+==>>> TRAIN-PRUNE | train epoch: 477, loss: 5.479052, similarity: 0.8043
+==>>> CLEAN VALIDATE | epoch: 477, batch index: 20, val loss: 5.049938, val sim: 0.5473
+==>>> TRAIN-PRUNE | train epoch: 478, loss: 5.478454, similarity: 0.8042
+==>>> CLEAN VALIDATE | epoch: 478, batch index: 20, val loss: 5.052506, val sim: 0.5461
+==>>> TRAIN-PRUNE | train epoch: 479, loss: 5.477530, similarity: 0.8047
+==>>> CLEAN VALIDATE | epoch: 479, batch index: 20, val loss: 5.021286, val sim: 0.5569
+==>>> TRAIN-PRUNE | train epoch: 480, loss: 5.481108, similarity: 0.8028
+==>>> CLEAN VALIDATE | epoch: 480, batch index: 20, val loss: 5.084083, val sim: 0.5343
+==>>> TRAIN-PRUNE | train epoch: 481, loss: 5.480716, similarity: 0.8032
+==>>> CLEAN VALIDATE | epoch: 481, batch index: 20, val loss: 5.068406, val sim: 0.5416
+==>>> TRAIN-PRUNE | train epoch: 482, loss: 5.477701, similarity: 0.8045
+==>>> CLEAN VALIDATE | epoch: 482, batch index: 20, val loss: 5.075958, val sim: 0.5401
+==>>> TRAIN-PRUNE | train epoch: 483, loss: 5.481527, similarity: 0.8027
+==>>> CLEAN VALIDATE | epoch: 483, batch index: 20, val loss: 5.019681, val sim: 0.5585
+==>>> TRAIN-PRUNE | train epoch: 484, loss: 5.481380, similarity: 0.8029
+==>>> CLEAN VALIDATE | epoch: 484, batch index: 20, val loss: 5.082376, val sim: 0.5379
+==>>> TRAIN-PRUNE | train epoch: 485, loss: 5.478552, similarity: 0.8044
+==>>> CLEAN VALIDATE | epoch: 485, batch index: 20, val loss: 5.075533, val sim: 0.5360
+==>>> TRAIN-PRUNE | train epoch: 486, loss: 5.477239, similarity: 0.8044
+==>>> CLEAN VALIDATE | epoch: 486, batch index: 20, val loss: 5.010558, val sim: 0.5607
+==>>> TRAIN-PRUNE | train epoch: 487, loss: 5.476667, similarity: 0.8047
+==>>> CLEAN VALIDATE | epoch: 487, batch index: 20, val loss: 5.026762, val sim: 0.5531
+==>>> TRAIN-PRUNE | train epoch: 488, loss: 5.480210, similarity: 0.8031
+==>>> CLEAN VALIDATE | epoch: 488, batch index: 20, val loss: 5.038879, val sim: 0.5499
+==>>> TRAIN-PRUNE | train epoch: 489, loss: 5.476544, similarity: 0.8052
+==>>> CLEAN VALIDATE | epoch: 489, batch index: 20, val loss: 5.019880, val sim: 0.5591
+==>>> TRAIN-PRUNE | train epoch: 490, loss: 5.480907, similarity: 0.8029
+==>>> CLEAN VALIDATE | epoch: 490, batch index: 20, val loss: 5.053784, val sim: 0.5477
+==>>> TRAIN-PRUNE | train epoch: 491, loss: 5.479511, similarity: 0.8035
+==>>> CLEAN VALIDATE | epoch: 491, batch index: 20, val loss: 5.048144, val sim: 0.5473
+==>>> TRAIN-PRUNE | train epoch: 492, loss: 5.480558, similarity: 0.8033
+==>>> CLEAN VALIDATE | epoch: 492, batch index: 20, val loss: 5.069508, val sim: 0.5395
+==>>> TRAIN-PRUNE | train epoch: 493, loss: 5.479219, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 493, batch index: 20, val loss: 5.053124, val sim: 0.5452
+==>>> TRAIN-PRUNE | train epoch: 494, loss: 5.479555, similarity: 0.8033
+==>>> CLEAN VALIDATE | epoch: 494, batch index: 20, val loss: 5.068429, val sim: 0.5413
+==>>> TRAIN-PRUNE | train epoch: 495, loss: 5.480312, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 495, batch index: 20, val loss: 5.054569, val sim: 0.5472
+==>>> TRAIN-PRUNE | train epoch: 496, loss: 5.481119, similarity: 0.8026
+==>>> CLEAN VALIDATE | epoch: 496, batch index: 20, val loss: 5.042868, val sim: 0.5473
+==>>> TRAIN-PRUNE | train epoch: 497, loss: 5.479719, similarity: 0.8033
+==>>> CLEAN VALIDATE | epoch: 497, batch index: 20, val loss: 5.042932, val sim: 0.5482
+==>>> TRAIN-PRUNE | train epoch: 498, loss: 5.479240, similarity: 0.8036
+==>>> CLEAN VALIDATE | epoch: 498, batch index: 20, val loss: 5.034879, val sim: 0.5515
+==>>> TRAIN-PRUNE | train epoch: 499, loss: 5.475635, similarity: 0.8053
+==>>> CLEAN VALIDATE | epoch: 499, batch index: 20, val loss: 5.080543, val sim: 0.5353
+==>>> CLEAN VALIDATE | epoch: 499, batch index: 20, val loss: 5.075165, val sim: 1.0000
+NOTE: There was a bug in the code in the eval stage, hence, val_sim is very low for above log, except the line above this!
+NOTE: Bug is fixed!

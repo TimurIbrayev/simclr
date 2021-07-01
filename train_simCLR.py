@@ -256,9 +256,9 @@ if not INFERENCE_ONLY:
                 x_val_1, x_val_2, y_val = x_val_1.to(device), x_val_2.to(device), y_val.to(device)
 
                 # pass 1st image
-                output_1, latent_1     = model(x_1, with_latent=True)
+                output_1, latent_1     = model(x_val_1, with_latent=True)
                 # pass 2nd image
-                output_2, latent_2     = model(x_2, with_latent=True)
+                output_2, latent_2     = model(x_val_2, with_latent=True)
 
 
                 loss, positive_similarities = contrastive_loss_compact(output_1, output_2, TEMPERATURE)
