@@ -1,0 +1,188 @@
+
+*******************************************************************
+==>> Run on: 2021-07-01 01:33:53
+==>> Seed was set to: 1
+
+
+ Arguments:
+	 seed                 : 1
+	 log                  : None
+	 experiment           : simclr
+	 dataset              : cifar10
+	 valid_split          : 0.0
+	 arch                 : VGG6
+	 parallel             : False
+	 checkpoint           : None
+	 inference_only       : False
+	 batch_size           : 512
+	 num_epochs           : 500
+	 optimizer            : adam
+	 init_lr              : 0.001
+	 weight_decay         : 1e-06
+	 momentum             : 0.9
+	 lr_schedule          : [500]
+	 lr_gamma             : 0.1
+	 version              : default
+	 projection           : 256
+	 temperature          : 0.5
+==>> Total training batches: 98
+==>> Total validation batches: 20
+==>> Total testing batches: 20
+customizable_VGG(
+  (features): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU(inplace=True)
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): ReLU(inplace=True)
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): ReLU(inplace=True)
+    (8): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (projection): Sequential(
+    (0): Linear(in_features=2048, out_features=512, bias=False)
+    (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=512, out_features=256, bias=True)
+  )
+)
+==>> Starting training from scratch!
+==>> Optimizer settings: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 0.001
+    lr: 0.001
+    weight_decay: 1e-06
+)
+==>> LR scheduler type: <class 'torch.optim.lr_scheduler.MultiStepLR'>
+==>> LR scheduler state: {'milestones': Counter({500: 1}), 'gamma': 0.1, 'base_lrs': [0.001], 'last_epoch': 0, '_step_count': 1, '_get_lr_called_within_step': False, '_last_lr': [0.001]}
+==>> Number of training epochs: 500
+==>>> TRAIN-PRUNE | train epoch: 0, loss: 6.110097, similarity: 1.1528
+==>>> CLEAN VALIDATE | epoch: 0, batch index: 20, val loss: 5.481747, val sim: 0.9017
+==>>> TRAIN-PRUNE | train epoch: 1, loss: 5.929396, similarity: 1.2777
+==>>> CLEAN VALIDATE | epoch: 1, batch index: 20, val loss: 5.415577, val sim: 0.9367
+==>>> TRAIN-PRUNE | train epoch: 2, loss: 5.859185, similarity: 1.3342
+==>>> CLEAN VALIDATE | epoch: 2, batch index: 20, val loss: 5.416109, val sim: 0.9302
+==>>> TRAIN-PRUNE | train epoch: 3, loss: 5.807718, similarity: 1.3699
+==>>> CLEAN VALIDATE | epoch: 3, batch index: 20, val loss: 5.377751, val sim: 0.9737
+==>>> TRAIN-PRUNE | train epoch: 4, loss: 5.779343, similarity: 1.3877
+==>>> CLEAN VALIDATE | epoch: 4, batch index: 20, val loss: 5.352006, val sim: 0.9821
+==>>> TRAIN-PRUNE | train epoch: 5, loss: 5.753404, similarity: 1.4109
+==>>> CLEAN VALIDATE | epoch: 5, batch index: 20, val loss: 5.426993, val sim: 0.9830
+==>>> TRAIN-PRUNE | train epoch: 6, loss: 5.733415, similarity: 1.4256
+==>>> CLEAN VALIDATE | epoch: 6, batch index: 20, val loss: 5.281235, val sim: 1.0046
+
+*******************************************************************
+==>> Run on: 2021-07-01 01:36:26
+==>> Seed was set to: 1
+
+
+ Arguments:
+	 seed                 : 1
+	 log                  : None
+	 experiment           : simclr
+	 dataset              : cifar10
+	 valid_split          : 0.0
+	 arch                 : VGG6
+	 parallel             : False
+	 checkpoint           : None
+	 inference_only       : False
+	 batch_size           : 512
+	 num_epochs           : 500
+	 optimizer            : adam
+	 init_lr              : 0.001
+	 weight_decay         : 1e-06
+	 momentum             : 0.9
+	 lr_schedule          : [500]
+	 lr_gamma             : 0.1
+	 version              : default
+	 projection           : 256
+	 temperature          : 0.5
+==>> Total training batches: 98
+==>> Total validation batches: 20
+==>> Total testing batches: 20
+customizable_VGG(
+  (features): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU(inplace=True)
+    (2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (3): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): ReLU(inplace=True)
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): ReLU(inplace=True)
+    (8): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  )
+  (projection): Sequential(
+    (0): Linear(in_features=2048, out_features=512, bias=False)
+    (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=512, out_features=256, bias=True)
+  )
+)
+==>> Starting training from scratch!
+==>> Optimizer settings: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    initial_lr: 0.001
+    lr: 0.001
+    weight_decay: 1e-06
+)
+==>> LR scheduler type: <class 'torch.optim.lr_scheduler.MultiStepLR'>
+==>> LR scheduler state: {'milestones': Counter({500: 1}), 'gamma': 0.1, 'base_lrs': [0.001], 'last_epoch': 0, '_step_count': 1, '_get_lr_called_within_step': False, '_last_lr': [0.001]}
+==>> Number of training epochs: 500
+==>>> TRAIN-PRUNE | train epoch: 0, loss: 6.110097, similarity: 0.5764
+==>>> CLEAN VALIDATE | epoch: 0, batch index: 20, val loss: 5.481747, val sim: 0.4509
+==>>> TRAIN-PRUNE | train epoch: 1, loss: 5.929396, similarity: 0.6388
+==>>> CLEAN VALIDATE | epoch: 1, batch index: 20, val loss: 5.415577, val sim: 0.4683
+==>>> TRAIN-PRUNE | train epoch: 2, loss: 5.859185, similarity: 0.6671
+==>>> CLEAN VALIDATE | epoch: 2, batch index: 20, val loss: 5.416109, val sim: 0.4651
+==>>> TRAIN-PRUNE | train epoch: 3, loss: 5.807718, similarity: 0.6849
+==>>> CLEAN VALIDATE | epoch: 3, batch index: 20, val loss: 5.377751, val sim: 0.4869
+==>>> TRAIN-PRUNE | train epoch: 4, loss: 5.779343, similarity: 0.6939
+==>>> CLEAN VALIDATE | epoch: 4, batch index: 20, val loss: 5.352006, val sim: 0.4911
+==>>> TRAIN-PRUNE | train epoch: 5, loss: 5.753404, similarity: 0.7054
+==>>> CLEAN VALIDATE | epoch: 5, batch index: 20, val loss: 5.426993, val sim: 0.4915
+==>>> TRAIN-PRUNE | train epoch: 6, loss: 5.733415, similarity: 0.7128
+==>>> CLEAN VALIDATE | epoch: 6, batch index: 20, val loss: 5.281235, val sim: 0.5023
+==>>> TRAIN-PRUNE | train epoch: 7, loss: 5.719221, similarity: 0.7174
+==>>> CLEAN VALIDATE | epoch: 7, batch index: 20, val loss: 5.301740, val sim: 0.4959
+==>>> TRAIN-PRUNE | train epoch: 8, loss: 5.708246, similarity: 0.7216
+==>>> CLEAN VALIDATE | epoch: 8, batch index: 20, val loss: 5.264100, val sim: 0.5028
+==>>> TRAIN-PRUNE | train epoch: 9, loss: 5.692680, similarity: 0.7275
+==>>> CLEAN VALIDATE | epoch: 9, batch index: 20, val loss: 5.260690, val sim: 0.4987
+==>>> TRAIN-PRUNE | train epoch: 10, loss: 5.683646, similarity: 0.7307
+==>>> CLEAN VALIDATE | epoch: 10, batch index: 20, val loss: 5.230536, val sim: 0.5068
+==>>> TRAIN-PRUNE | train epoch: 11, loss: 5.675735, similarity: 0.7344
+==>>> CLEAN VALIDATE | epoch: 11, batch index: 20, val loss: 5.284590, val sim: 0.4916
+==>>> TRAIN-PRUNE | train epoch: 12, loss: 5.674100, similarity: 0.7345
+==>>> CLEAN VALIDATE | epoch: 12, batch index: 20, val loss: 5.250002, val sim: 0.5000
+==>>> TRAIN-PRUNE | train epoch: 13, loss: 5.664851, similarity: 0.7382
+==>>> CLEAN VALIDATE | epoch: 13, batch index: 20, val loss: 5.258593, val sim: 0.5069
+==>>> TRAIN-PRUNE | train epoch: 14, loss: 5.664956, similarity: 0.7381
+==>>> CLEAN VALIDATE | epoch: 14, batch index: 20, val loss: 5.211565, val sim: 0.5127
+==>>> TRAIN-PRUNE | train epoch: 15, loss: 5.651283, similarity: 0.7439
+==>>> CLEAN VALIDATE | epoch: 15, batch index: 20, val loss: 5.231977, val sim: 0.5059
+==>>> TRAIN-PRUNE | train epoch: 16, loss: 5.645464, similarity: 0.7466
+==>>> CLEAN VALIDATE | epoch: 16, batch index: 20, val loss: 5.247072, val sim: 0.5101
+==>>> TRAIN-PRUNE | train epoch: 17, loss: 5.643467, similarity: 0.7466
+==>>> CLEAN VALIDATE | epoch: 17, batch index: 20, val loss: 5.221759, val sim: 0.5206
+==>>> TRAIN-PRUNE | train epoch: 18, loss: 5.640923, similarity: 0.7476
+==>>> CLEAN VALIDATE | epoch: 18, batch index: 20, val loss: 5.260758, val sim: 0.4955
+==>>> TRAIN-PRUNE | train epoch: 19, loss: 5.638519, similarity: 0.7484
+==>>> CLEAN VALIDATE | epoch: 19, batch index: 20, val loss: 5.252086, val sim: 0.5004
+==>>> TRAIN-PRUNE | train epoch: 20, loss: 5.631724, similarity: 0.7512
+==>>> CLEAN VALIDATE | epoch: 20, batch index: 20, val loss: 5.195553, val sim: 0.5179
+==>>> TRAIN-PRUNE | train epoch: 21, loss: 5.628093, similarity: 0.7528
+==>>> CLEAN VALIDATE | epoch: 21, batch index: 20, val loss: 5.209666, val sim: 0.5156
+==>>> TRAIN-PRUNE | train epoch: 22, loss: 5.621911, similarity: 0.7548
+==>>> CLEAN VALIDATE | epoch: 22, batch index: 20, val loss: 5.173712, val sim: 0.5218
+==>>> TRAIN-PRUNE | train epoch: 23, loss: 5.621777, similarity: 0.7542
+==>>> CLEAN VALIDATE | epoch: 23, batch index: 20, val loss: 5.155213, val sim: 0.5324
+==>>> TRAIN-PRUNE | train epoch: 24, loss: 5.615354, similarity: 0.7563
+==>>> CLEAN VALIDATE | epoch: 24, batch index: 20, val loss: 5.172522, val sim: 0.5240
