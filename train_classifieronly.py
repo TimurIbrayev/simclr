@@ -31,36 +31,34 @@ np.set_printoptions(suppress='True')
 
 from custom_models_cifar_vgg import customizable_VGG
 from torchvision.models import resnet50
-from utilities import *
+from utilities import get_data_loaders
 
 import matplotlib.pyplot as plt
 from torchvision.utils import make_grid as grid
 
 
-parser = argparse.ArgumentParser(description='Bare minimim script for training models', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+parser = argparse.ArgumentParser(description='Bare minimim script for training linear classifier on top of frozen pre-trained feature extractor', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--seed',           default=1,                  type=int,       help='Seed for random numbers')
 parser.add_argument('--log',            default=None,               type=str,       help='Indicator of the log file. Defaults to .txt file in results directory. If set to "sys" sets to sys.stdout')
-parser.add_argument('--experiment',     default='default',          type=str,       help='Indicator of the experiment performed to separate experiments into separate folders')
-parser.add_argument('--dataset',        default='mnist',            type=str,       help='Dataset name', choices=['mnist', 'fashionmnist', 'cifar10', 'imagenet2012'])
+parser.add_argument('--experiment',     default='simclr',           type=str,       help='Indicator of the experiment performed to separate experiments into separate folders')
+parser.add_argument('--dataset',        default='cifar10',          type=str,       help='Dataset name', choices=['mnist', 'fashionmnist', 'cifar10', 'imagenet2012'])
 parser.add_argument('--valid_split',    default=0.0,                type=float,     help='Fraction of training set dedicated for validation')
-parser.add_argument('--arch',           default='VGG6_narrow',      type=str,       help='Model architecture to be trained')
+parser.add_argument('--arch',           default='VGG6',             type=str,       help='Model architecture to be trained')
 parser.add_argument('--parallel',       default=False,              type=bool,      help='Flag to whether parallelize model over multiple GPUs')
 parser.add_argument('--checkpoint',     default=None,               type=str,       help='Path to checkpoint file')
 parser.add_argument('--inference_only', default=False,              type=bool,      help='Flag to run only inference without training')
 
-parser.add_argument('--batch_size',     default=200,                 type=int,       help='Batch size for data loading')
-parser.add_argument('--num_epochs',     default=40,                type=int,       help='The number of training epochs')
-parser.add_argument('--optimizer',      default='sgd',              type=str,       help='Type of optimizer to use for training', choices=['sgd', 'adam'])
-parser.add_argument('--init_lr',        default=1.0e-4,             type=float,     help='Learning rate during training')
-parser.add_argument('--weight_decay',   default=0.0001,             type=float,     help='Weight decay factor (L2 regularization)')
+parser.add_argument('--batch_size',     default=128,                type=int,       help='Batch size for data loading')
+parser.add_argument('--num_epochs',     default=100,                type=int,       help='The number of training epochs')
+parser.add_argument('--optimizer',      default='adam',             type=str,       help='Type of optimizer to use for training', choices=['sgd', 'adam'])
+parser.add_argument('--init_lr',        default=1.0e-3,             type=float,     help='Learning rate during training')
+parser.add_argument('--weight_decay',   default=0.000001,           type=float,     help='Weight decay factor (L2 regularization)')
 parser.add_argument('--momentum',       default=0.9,                type=float,     help='Momentum')
-parser.add_argument('--lr_schedule',    default='0.60 0.80 0.90',   type=str,       help='Intervals at which to reduce lr, expressed as %%age of total epochs')
+parser.add_argument('--lr_schedule',    default='1.0',              type=str,       help='Intervals at which to reduce lr, expressed as %%age of total epochs')
 parser.add_argument('--lr_gamma',       default=0.1,                type=int,       help='Reduction factor for learning rate')
 
 parser.add_argument('--version',        default='withtrainedlinearclassifier',          type=str,       help='Version ID to distinguish different runs of the same experiment')
 
-
-# parser.add_argument('--resize_crops',   default=False,              type=bool,      help='Flag whether to resize crops or not')
 
 #%% Parse script parameters.
 global args
@@ -94,7 +92,6 @@ TRAIN = {
     "LR_SCHEDULE":      [int(float(value)*NUM_EPOCHS) for value in args.lr_schedule.split()],
     "LR_GAMMA":         args.lr_gamma
     }
-
 
 
 VERSION_ID      = args.version
@@ -133,17 +130,17 @@ if DATASET == 'imagenet2012':
 else:
     root_dir = './dataset/{}'.format(DATASET)
 
-train_loader, valid_loader, test_loader, normalization_func = get_data_loaders(dataset=DATASET, 
-                                                                               data_dir=root_dir, 
-                                                                               batch_size=BATCH_SIZE, 
-                                                                               augment=False, #NOTE: augmentation is off 
-                                                                               normalize='static0to1',
-                                                                               device=device,
-                                                                               random_seed=SEED, 
-                                                                               valid_size=VALID_SPLIT, 
-                                                                               shuffle=True, 
-                                                                               num_workers=8, 
-                                                                               pin_memory=True)
+train_loader, valid_loader, test_loader = get_data_loaders(dataset=DATASET, 
+                                                           data_dir=root_dir, 
+                                                           batch_size=BATCH_SIZE, 
+                                                           augment=False, #NOTE: augmentation is off 
+                                                           normalize='static0to1',
+                                                           device=device,
+                                                           random_seed=SEED, 
+                                                           valid_size=VALID_SPLIT, 
+                                                           shuffle=True, 
+                                                           num_workers=8, 
+                                                           pin_memory=True)
 
 f.write('\n==>> Total training batches: {}\n'.format(len(train_loader)))
 f.write('==>> Total validation batches: {}\n'.format(len(valid_loader)))
@@ -152,9 +149,9 @@ f.write('==>> Total testing batches: {}\n'.format(len(test_loader)))
 
 #%% Model instantiation.
 if 'vgg' in MODEL:
-    model = customizable_VGG(dataset=DATASET, vgg_name=MODEL, downsampling='M', fc1=0, fc2=0, init_weights=False)
-elif 'resnet50' in MODEL:
-    model = resnet50(pretrained=False, num_classes=len(test_loader.dataset.classes))
+    model = customizable_VGG(dataset=DATASET, vgg_name=MODEL, downsampling='M', projection_dim=0, fc1=0, fc2=0)
+# elif 'resnet50' in MODEL:
+#     model = resnet50(pretrained=False, num_classes=len(test_loader.dataset.classes))
 
 
 
@@ -184,7 +181,7 @@ else:
 if not CHECKPOINT is None:
     f.write("==>> Feature extractor is loaded from checkpoint: {}\n".format(CHECKPOINT))
     ckpt = torch.load(CHECKPOINT, map_location=device)
-    feature_extractor_dict = {key: value for key, value in ckpt['model'].items() if not 'classifier' in key}
+    feature_extractor_dict = {key: value for key, value in ckpt['model'].items() if 'features' in key}
     missing_keys = model.load_state_dict(feature_extractor_dict, strict=False)
     f.write("==>> Warning: {}\n".format(missing_keys))
     for name, param in model.named_parameters():
@@ -204,62 +201,6 @@ f.write("==>> Optimizer settings: {}\n".format(optimizer))
 f.write("==>> LR scheduler type: {}\n".format(lr_scheduler.__class__))
 f.write("==>> LR scheduler state: {}\n".format(lr_scheduler.state_dict()))
 f.write("==>> Number of training epochs: {}\n".format(NUM_EPOCHS))
-
-
-#%% Linearly Separable Features - specific objects and functions.
-crop = crop_out_patch([1, 28, 28], 14, 14)
-
-def contrastive_loss(vec_1, vec_2):
-    
-    # def cosine_sim(subvec_1, subvec_2):
-    #     return (subvec_1*subvec_2).sum()/((subvec_1.norm(p=2))*(subvec_2.norm(p=2)))
-    
-    # similarity_ij       = []
-    # for i, v1 in enumerate(vec_1):
-    #     similarity_i    = []
-    #     for j, v2 in enumerate(vec_2):
-    #         similarity_i.append(cosine_sim(v1, v2))
-    #     similarity_ij.append(similarity_i)
-    
-    # # sim matrix is for monitoring only, it does not have compute graph
-    # sim_matrix = torch.tensor(similarity_ij) # diagonal elements belong to the same input x
-    epsilon = 1e-12
-    
-    N = vec_1.shape[0]
-    vec_1_normalized = vec_1/(vec_1.norm(p=2, dim=-1, keepdim=True) + epsilon)
-    vec_2_normalized = vec_2/(vec_2.norm(p=2, dim=-1, keepdim=True) + epsilon)
-    long_vector      = torch.cat((vec_1_normalized, vec_2_normalized), dim=0)
-    
-    positive_similarities   = []
-    # FIXME: can NLLloss be used instead?
-    # for vec_1
-    for i in range(N):
-        similarity_positive = (vec_1_normalized[i]*vec_2_normalized[i]).sum()
-        numerator           = similarity_positive.exp()
-        similarity_all      = torch.matmul(long_vector, vec_1_normalized[i].unsqueeze(-1))
-        mask                = torch.ones_like(similarity_all)
-        mask[i]             = 0.0
-        denominator         = ((similarity_all.exp())*mask).sum() + epsilon
-        if i == 0:
-            loss            = -torch.log(numerator/denominator)
-        else:
-            loss           += -torch.log(numerator/denominator)
-        positive_similarities.append(similarity_positive.detach())
-        
-    for j in range(N):
-        similarity_positive = (vec_2_normalized[j]*vec_1_normalized[j]).sum()
-        numerator           = similarity_positive.exp()
-        similarity_all      = torch.matmul(long_vector, vec_2_normalized[j].unsqueeze(-1))
-        mask                = torch.ones_like(similarity_all)
-        mask[N+j]           = 0.0
-        denominator         = ((similarity_all.exp())*mask).sum() + epsilon
-        loss               += -torch.log(numerator/denominator)        
-    
-    loss /= (2*N)
-    
-    return loss, positive_similarities#, mask
-            
-
 
 
 #%% TRAIN.
