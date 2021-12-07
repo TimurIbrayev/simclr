@@ -1,2 +1,2 @@
 # simclr
-PyTorch SimCLR implementation
+PyTorch bare minimum SimCLR implementation
